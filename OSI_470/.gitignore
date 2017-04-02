@@ -1,0 +1,7 @@
+# zip files
+*.zip
+
+# Directories and Altium files
+History
+__*
+Project*
