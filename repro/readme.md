@@ -24,7 +24,7 @@ layer, and many were prepared with no solder mask--especially earlier boards.
 ## Manual reproductions
 Several
 were meticulously recreated by hand by Grant (Klyball).  These were created by hand in a PCB program, based on scans of the original boards,
-and are startlingly close to the originals a tour de force
+and are startlingly close to the originals--a tour de force
 
 ## Credits:
 
