@@ -1,5 +1,6 @@
 # OSI Preservation Project
-##About
+
+## About
 
 The goal of this project is to preserve the OSI designs, to recreate the authentic experience of hacking OSI hardware,
 and also to help OSI owners restore, repair, or reconfigure their machines while keeping the machines as true to the original
