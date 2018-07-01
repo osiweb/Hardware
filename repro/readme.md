@@ -6,6 +6,8 @@ The goal of this project is to preserve the OSI designs, to recreate the authent
 and also to help OSI owners restore, repair, or reconfigure their machines while keeping the machines as true to the original
 feel as possible.
 
+Descriptions and manuals for these boards can be found at Dave's OSI repository: http://osiweb.org/#Hardware.  Further descriptions, information, and photos can be found at Mark's OSI board catalog: http://osi.marks-lab.com/boards/boards.html
+
 ## Scans
 Many of these boards were scanned by Mile High Test (http://www.mhtest.com/), now part of Gardien (http://na.gardien.com/). The gerbers
 returned from the scanning process were processed as follows:
