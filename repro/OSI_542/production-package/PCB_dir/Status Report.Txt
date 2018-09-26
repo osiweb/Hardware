@@ -1,0 +1,12 @@
+Output: NC Drill Files
+Type  : NC Drill
+From  : PCB Document [OSI_542.PcbDoc]
+   Generated File[OSI_542-Rev_1.TXT]
+   Generated File[OSI_542-Rev_1.LDP]
+   Generated File[OSI_542-Rev_1.DRR]
+
+
+Files Generated   : 3
+Documents Printed : 0
+
+Finished Output Generation At 9:46:53 PM On 9/25/2018
