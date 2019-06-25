@@ -4,6 +4,9 @@ This project aims to provide a (near) universal ASCII keyboard for vintage compu
 
 The keyboard will allow use of Cherry MX keys, or Futaba MD-4PCS keys.
 
+The keyboard supports diodes per-switch for true N-key rollover, or 
+per-row (like the OSI).
+
 The keyboard is designed using KiCad in order to be the most useful for anybody wishing to modify the keyboard for more specific uses, or to add to the project.
 
 Goals for the keyboard:
