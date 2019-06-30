@@ -3,7 +3,7 @@ EELAYER 29 0
 EELAYER END
 $Descr USLetter 11000 8500
 encoding utf-8
-Sheet 1 3
+Sheet 1 4
 Title ""
 Date ""
 Rev ""
@@ -109,35 +109,31 @@ F 3 "~" H 900 3300 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 Wire Wire Line
-	1100 3300 1850 3300
+	1100 3300 1950 3300
 Wire Wire Line
-	1850 3300 1850 3850
+	1950 3300 1950 4300
 $Comp
 L power:GND #PWR07
 U 1 1 5BCC068F
-P 1850 3850
-F 0 "#PWR07" H 1850 3600 50  0001 C CNN
-F 1 "GND" H 1855 3677 50  0000 C CNN
-F 2 "" H 1850 3850 50  0001 C CNN
-F 3 "" H 1850 3850 50  0001 C CNN
-	1    1850 3850
+P 1950 4300
+F 0 "#PWR07" H 1950 4050 50  0001 C CNN
+F 1 "GND" H 1955 4127 50  0000 C CNN
+F 2 "" H 1950 4300 50  0001 C CNN
+F 3 "" H 1950 4300 50  0001 C CNN
+	1    1950 4300
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:+5V #PWR03
 U 1 1 5BCC0E14
-P 1250 4050
-F 0 "#PWR03" H 1250 3900 50  0001 C CNN
-F 1 "+5V" H 1265 4223 50  0000 C CNN
-F 2 "" H 1250 4050 50  0001 C CNN
-F 3 "" H 1250 4050 50  0001 C CNN
-	1    1250 4050
+P 1750 2500
+F 0 "#PWR03" H 1750 2350 50  0001 C CNN
+F 1 "+5V" H 1765 2673 50  0000 C CNN
+F 2 "" H 1750 2500 50  0001 C CNN
+F 3 "" H 1750 2500 50  0001 C CNN
+	1    1750 2500
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	1250 4050 1250 4100
-Wire Wire Line
-	1250 4100 1100 4100
 Wire Wire Line
 	1100 3500 1600 3500
 Wire Wire Line
@@ -318,55 +314,27 @@ Row6
 Text Label 8400 4950 0    50   ~ 0
 Row7
 Wire Wire Line
-	2400 2600 2400 1600
-Wire Wire Line
-	2400 1600 3100 1600
-Wire Wire Line
-	1100 2600 2400 2600
-Wire Wire Line
 	3100 1600 3100 1700
 Wire Wire Line
 	3100 1700 3300 1700
-Connection ~ 3100 1600
 Wire Wire Line
 	3100 1600 3300 1600
-Wire Wire Line
-	2500 2700 2500 1800
-Wire Wire Line
-	2500 1800 3100 1800
-Wire Wire Line
-	1100 2700 2500 2700
 Wire Wire Line
 	3100 1800 3100 1900
 Wire Wire Line
 	3100 1900 3300 1900
-Connection ~ 3100 1800
 Wire Wire Line
 	3100 1800 3300 1800
-Wire Wire Line
-	2600 2800 2600 2000
-Wire Wire Line
-	2600 2000 3100 2000
-Wire Wire Line
-	1100 2800 2600 2800
 Wire Wire Line
 	3300 2100 3100 2100
 Wire Wire Line
 	3100 2100 3100 2000
-Connection ~ 3100 2000
 Wire Wire Line
 	3100 2000 3300 2000
-Wire Wire Line
-	2700 2900 2700 2200
-Wire Wire Line
-	2700 2200 3100 2200
-Wire Wire Line
-	1100 2900 2700 2900
 Wire Wire Line
 	3300 2300 3100 2300
 Wire Wire Line
 	3100 2300 3100 2200
-Connection ~ 3100 2200
 Wire Wire Line
 	3100 2200 3300 2200
 Wire Wire Line
@@ -374,25 +342,17 @@ Wire Wire Line
 Wire Wire Line
 	2450 4450 3100 4450
 Wire Wire Line
-	1100 3400 2450 3400
-Wire Wire Line
 	2550 3200 2550 4250
 Wire Wire Line
 	2550 4250 3100 4250
-Wire Wire Line
-	1100 3200 2550 3200
 Wire Wire Line
 	2650 3100 2650 4050
 Wire Wire Line
 	2650 4050 3100 4050
 Wire Wire Line
-	1100 3100 2650 3100
-Wire Wire Line
 	2750 3000 2750 3850
 Wire Wire Line
 	2750 3850 3100 3850
-Wire Wire Line
-	1100 3000 2750 3000
 Wire Wire Line
 	3100 3850 3100 3950
 Wire Wire Line
@@ -847,14 +807,6 @@ Text Label 1200 3700 0    50   ~ 0
 ~A1
 Text Label 1200 3600 0    50   ~ 0
 ~A0
-Text GLabel 1400 3700 2    31   Input ~ 0
-~A1
-Text GLabel 1400 3600 2    31   Input ~ 0
-~A0
-Wire Wire Line
-	1100 3600 1400 3600
-Wire Wire Line
-	1100 3700 1400 3700
 $Comp
 L unikbd:74LS240-74xx U2
 U 1 1 5BD1C77F
@@ -880,8 +832,6 @@ Wire Wire Line
 Connection ~ 3100 4750
 Wire Wire Line
 	3100 4750 3000 4750
-Wire Wire Line
-	1600 3500 1600 4850
 Wire Wire Line
 	1750 4850 1600 4850
 Connection ~ 1600 4850
@@ -987,8 +937,200 @@ Text Label 7750 3450 0    50   ~ 0
 Row6
 Text Label 7750 3550 0    50   ~ 0
 Row7
+Wire Wire Line
+	1600 3500 2050 3500
+Connection ~ 1600 3500
+Wire Wire Line
+	1100 3600 2050 3600
+Wire Wire Line
+	1100 3700 2050 3700
+Wire Wire Line
+	2050 3800 1450 3800
+Connection ~ 1450 3800
+Wire Wire Line
+	1100 3900 2050 3900
+Wire Wire Line
+	1100 4000 2050 4000
+Text Label 1450 1700 0    50   ~ 0
+R_~W
+Text Label 1450 1600 0    50   ~ 0
+D7
+Text Label 1450 1400 0    50   ~ 0
+D6
+Text Label 1450 1300 0    50   ~ 0
+D5
+Text Label 1450 1200 0    50   ~ 0
+D4
+Text Label 1450 1100 0    50   ~ 0
+D3
+Text Label 1450 1000 0    50   ~ 0
+D2
+Text Label 1450 900  0    50   ~ 0
+D1
+Text Label 1450 800  0    50   ~ 0
+D0
+Text Label 1450 2000 0    50   ~ 0
+~KBE
+Text Label 1450 1900 0    50   ~ 0
+~A1
+Text Label 1450 1800 0    50   ~ 0
+~A0
+Text Label 1200 3900 0    50   ~ 0
+NI
+Connection ~ 3100 2200
+Wire Wire Line
+	2700 2200 3100 2200
+Wire Wire Line
+	2700 2900 2700 2200
+Connection ~ 3100 2000
+Wire Wire Line
+	2600 2000 3100 2000
+Wire Wire Line
+	2600 2800 2600 2000
+Connection ~ 3100 1800
+Wire Wire Line
+	2500 1800 3100 1800
+Wire Wire Line
+	2500 2700 2500 1800
+Connection ~ 3100 1600
+Wire Wire Line
+	2400 1600 3100 1600
+Wire Wire Line
+	2400 2600 2400 1600
+Text Label 1200 4000 0    50   ~ 0
+~SI
+Wire Wire Line
+	1100 2900 2700 2900
+Entry Wire Line
+	2050 800  2150 900 
+Entry Wire Line
+	2050 900  2150 1000
+Entry Wire Line
+	2050 1000 2150 1100
+Entry Wire Line
+	2050 1100 2150 1200
+Entry Wire Line
+	2050 1200 2150 1300
+Entry Wire Line
+	2050 1300 2150 1400
+Entry Wire Line
+	2050 1400 2150 1500
+Entry Wire Line
+	2050 1600 2150 1700
+Entry Wire Line
+	2050 1700 2150 1800
+Entry Wire Line
+	2050 1800 2150 1900
+Entry Wire Line
+	2050 1900 2150 2000
+Entry Wire Line
+	2050 2000 2150 2100
+Entry Wire Line
+	2050 2600 2150 2700
+Entry Wire Line
+	2050 2700 2150 2800
+Entry Wire Line
+	2050 2800 2150 2900
+Entry Wire Line
+	2050 3000 2150 3100
+Entry Wire Line
+	2050 3100 2150 3200
+Entry Wire Line
+	2050 3200 2150 3300
+Entry Wire Line
+	2050 3400 2150 3500
+Entry Wire Line
+	2050 3500 2150 3600
+Entry Wire Line
+	2050 3600 2150 3700
+Entry Wire Line
+	2050 3700 2150 3800
+Entry Wire Line
+	2050 3800 2150 3900
+Entry Wire Line
+	2050 3900 2150 4000
+Entry Wire Line
+	2050 4000 2150 4100
+Entry Wire Line
+	2050 2100 2150 2200
+Text Label 1450 2100 0    50   ~ 0
+NI
+Entry Wire Line
+	2050 2200 2150 2300
+Wire Wire Line
+	2050 2200 1350 2200
+Text Label 1450 2200 0    50   ~ 0
+~SI
+Wire Wire Line
+	1350 2100 2050 2100
+Wire Wire Line
+	1350 1600 2050 1600
+Wire Wire Line
+	1350 1200 2050 1200
+Wire Wire Line
+	1350 1300 2050 1300
+Wire Wire Line
+	1350 1400 2050 1400
+Wire Wire Line
+	1350 1100 2050 1100
+Wire Wire Line
+	1350 1000 2050 1000
+Wire Wire Line
+	1350 900  2050 900 
+Wire Wire Line
+	1350 800  2050 800 
+Wire Wire Line
+	1350 1900 2050 1900
+Wire Wire Line
+	1350 1800 2050 1800
+Wire Wire Line
+	1350 2000 2050 2000
+Wire Wire Line
+	1350 1700 2050 1700
+$Sheet
+S 650  650  700  1650
+U 5D770188
+F0 "Sheet5D770187" 50
+F1 "expansion.sch" 50
+F2 "D0" I R 1350 800 50 
+F3 "D1" I R 1350 900 50 
+F4 "D2" I R 1350 1000 50 
+F5 "D3" I R 1350 1100 50 
+F6 "D4" I R 1350 1200 50 
+F7 "D5" I R 1350 1300 50 
+F8 "D6" I R 1350 1400 50 
+F9 "D7" I R 1350 1600 50 
+F10 "R_~W" I R 1350 1700 50 
+F11 "~A0" I R 1350 1800 50 
+F12 "~A1" I R 1350 1900 50 
+F13 "~KBE" I R 1350 2000 50 
+F14 "NI" I R 1350 2100 50 
+F15 "~SI" I R 1350 2200 50 
+$EndSheet
+Wire Wire Line
+	1600 3500 1600 4850
+Wire Wire Line
+	1750 4100 1750 2500
+Wire Wire Line
+	1100 4100 1750 4100
+Wire Wire Line
+	1100 3400 2450 3400
+Wire Wire Line
+	1100 3200 2550 3200
+Wire Wire Line
+	1100 3100 2650 3100
+Wire Wire Line
+	1100 3000 2750 3000
+Wire Wire Line
+	1100 2800 2600 2800
+Wire Wire Line
+	1100 2700 2500 2700
+Wire Wire Line
+	1100 2600 2400 2600
 Wire Bus Line
 	5800 2250 5800 5050
+Wire Bus Line
+	2150 900  2150 4100
 Wire Bus Line
 	8150 1450 8150 5050
 $EndSCHEMATC
