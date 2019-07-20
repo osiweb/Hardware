@@ -1,9 +1,10 @@
 EESchema Schematic File Version 4
+LIBS:unikbd-keys-cache
 EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 2 4
+Sheet 3 3
 Title "Universal retro keyboard"
 Date "2019-05-06"
 Rev ""
@@ -38,10 +39,10 @@ Col1
 Text HLabel 1450 2500 0    60   Input ~ 0
 Col0
 $Comp
-L Switch:SW_Push SW1
+L Switch:SW_Push SW32
 U 1 1 5BC3FCBC
 P 3000 3200
-F 0 "SW1" H 3000 3485 50  0000 C CNN
+F 0 "SW32" H 3000 3485 50  0000 C CNN
 F 1 "Ampersand" H 3000 3394 50  0000 C CNN
 F 2 "unikbd:Key_MX" H 3000 3400 50  0001 C CNN
 F 3 "" H 3000 3400 50  0001 C CNN
@@ -49,10 +50,10 @@ F 3 "" H 3000 3400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_Push SW5
+L Switch:SW_Push SW35
 U 1 1 5BC3FD26
 P 3800 3200
-F 0 "SW5" H 3800 3485 50  0000 C CNN
+F 0 "SW35" H 3800 3485 50  0000 C CNN
 F 1 "R_Shift" H 3800 3394 50  0000 C CNN
 F 2 "unikbd:Key_MX" H 3800 3400 50  0001 C CNN
 F 3 "" H 3800 3400 50  0001 C CNN
@@ -60,10 +61,10 @@ F 3 "" H 3800 3400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_Push SW9
+L Switch:SW_Push SW39
 U 1 1 5BC3FE57
 P 4600 3200
-F 0 "SW9" H 4600 3485 50  0000 C CNN
+F 0 "SW39" H 4600 3485 50  0000 C CNN
 F 1 "L_Shift" H 4600 3394 50  0000 C CNN
 F 2 "unikbd:Key_MX" H 4600 3400 50  0001 C CNN
 F 3 "" H 4600 3400 50  0001 C CNN
@@ -71,10 +72,10 @@ F 3 "" H 4600 3400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_Push SW21
+L Switch:SW_Push SW49
 U 1 1 5BC3FF69
 P 7000 3200
-F 0 "SW21" H 7000 3485 50  0000 C CNN
+F 0 "SW49" H 7000 3485 50  0000 C CNN
 F 1 "ESC" H 7000 3394 50  0000 C CNN
 F 2 "unikbd:Key_MX" H 7000 3400 50  0001 C CNN
 F 3 "" H 7000 3400 50  0001 C CNN
@@ -82,10 +83,10 @@ F 3 "" H 7000 3400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_Push SW29
+L Switch:SW_Push SW57
 U 1 1 5BC3FF70
 P 8600 3200
-F 0 "SW29" H 8600 3485 50  0000 C CNN
+F 0 "SW57" H 8600 3485 50  0000 C CNN
 F 1 "Backslash" H 8600 3394 50  0000 C CNN
 F 2 "unikbd:Key_MX" H 8600 3400 50  0001 C CNN
 F 3 "" H 8600 3400 50  0001 C CNN
@@ -93,10 +94,10 @@ F 3 "" H 8600 3400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_Push SW25
+L Switch:SW_Push SW53
 U 1 1 5BC3FF77
 P 7800 3200
-F 0 "SW25" H 7800 3485 50  0000 C CNN
+F 0 "SW53" H 7800 3485 50  0000 C CNN
 F 1 "CTRL" H 7800 3394 50  0000 C CNN
 F 2 "unikbd:Key_MX" H 7800 3400 50  0001 C CNN
 F 3 "" H 7800 3400 50  0001 C CNN
@@ -104,10 +105,10 @@ F 3 "" H 7800 3400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Diode:1N4148 D9
+L Diode:1N4148 D36
 U 1 1 5BC6C862
 P 4000 3450
-F 0 "D9" V 4046 3371 50  0000 R CNN
+F 0 "D36" V 4046 3371 50  0000 R CNN
 F 1 "1N4148" V 3955 3371 50  0000 R CNN
 F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 4000 3275 50  0001 C CNN
 F 3 "http://www.nxp.com/documents/data_sheet/1N4148_1N4448.pdf" H 4000 3450 50  0001 C CNN
@@ -115,10 +116,10 @@ F 3 "http://www.nxp.com/documents/data_sheet/1N4148_1N4448.pdf" H 4000 3450 50  
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Diode:1N4148 D5
+L Diode:1N4148 D33
 U 1 1 5BC6CA60
 P 3200 3450
-F 0 "D5" V 3246 3371 50  0000 R CNN
+F 0 "D33" V 3246 3371 50  0000 R CNN
 F 1 "1N4148" V 3155 3371 50  0000 R CNN
 F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 3200 3275 50  0001 C CNN
 F 3 "http://www.nxp.com/documents/data_sheet/1N4148_1N4448.pdf" H 3200 3450 50  0001 C CNN
@@ -126,10 +127,10 @@ F 3 "http://www.nxp.com/documents/data_sheet/1N4148_1N4448.pdf" H 3200 3450 50  
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Diode:1N4148 D13
+L Diode:1N4148 D40
 U 1 1 5BC6CA8E
 P 4800 3450
-F 0 "D13" V 4846 3371 50  0000 R CNN
+F 0 "D40" V 4846 3371 50  0000 R CNN
 F 1 "1N4148" V 4755 3371 50  0000 R CNN
 F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 4800 3275 50  0001 C CNN
 F 3 "http://www.nxp.com/documents/data_sheet/1N4148_1N4448.pdf" H 4800 3450 50  0001 C CNN
@@ -137,10 +138,10 @@ F 3 "http://www.nxp.com/documents/data_sheet/1N4148_1N4448.pdf" H 4800 3450 50  
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Diode:1N4148 D25
+L Diode:1N4148 D50
 U 1 1 5BC6CB1B
 P 7200 3450
-F 0 "D25" V 7246 3371 50  0000 R CNN
+F 0 "D50" V 7246 3371 50  0000 R CNN
 F 1 "1N4148" V 7155 3371 50  0000 R CNN
 F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 7200 3275 50  0001 C CNN
 F 3 "http://www.nxp.com/documents/data_sheet/1N4148_1N4448.pdf" H 7200 3450 50  0001 C CNN
@@ -148,10 +149,10 @@ F 3 "http://www.nxp.com/documents/data_sheet/1N4148_1N4448.pdf" H 7200 3450 50  
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Diode:1N4148 D29
+L Diode:1N4148 D54
 U 1 1 5BC6CB46
 P 8000 3450
-F 0 "D29" V 8046 3371 50  0000 R CNN
+F 0 "D54" V 8046 3371 50  0000 R CNN
 F 1 "1N4148" V 7955 3371 50  0000 R CNN
 F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 8000 3275 50  0001 C CNN
 F 3 "http://www.nxp.com/documents/data_sheet/1N4148_1N4448.pdf" H 8000 3450 50  0001 C CNN
@@ -159,10 +160,10 @@ F 3 "http://www.nxp.com/documents/data_sheet/1N4148_1N4448.pdf" H 8000 3450 50  
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Diode:1N4148 D33
+L Diode:1N4148 D58
 U 1 1 5BC6CB6F
 P 8800 3450
-F 0 "D33" V 8846 3371 50  0000 R CNN
+F 0 "D58" V 8846 3371 50  0000 R CNN
 F 1 "1N4148" V 8755 3371 50  0000 R CNN
 F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 8800 3275 50  0001 C CNN
 F 3 "http://www.nxp.com/documents/data_sheet/1N4148_1N4448.pdf" H 8800 3450 50  0001 C CNN
@@ -170,10 +171,10 @@ F 3 "http://www.nxp.com/documents/data_sheet/1N4148_1N4448.pdf" H 8800 3450 50  
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Switch:SW_Push SW6
+L Switch:SW_Push SW36
 U 1 1 5BC6CD5D
 P 3800 4100
-F 0 "SW6" H 3800 4385 50  0000 C CNN
+F 0 "SW36" H 3800 4385 50  0000 C CNN
 F 1 "P" H 3800 4294 50  0000 C CNN
 F 2 "unikbd:Key_MX" H 3800 4300 50  0001 C CNN
 F 3 "" H 3800 4300 50  0001 C CNN
@@ -181,10 +182,10 @@ F 3 "" H 3800 4300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_Push SW14
+L Switch:SW_Push SW43
 U 1 1 5BC6CD64
 P 5400 4100
-F 0 "SW14" H 5400 4385 50  0000 C CNN
+F 0 "SW43" H 5400 4385 50  0000 C CNN
 F 1 "Fwd_Slash" H 5400 4294 50  0000 C CNN
 F 2 "unikbd:Key_MX" H 5400 4300 50  0001 C CNN
 F 3 "" H 5400 4300 50  0001 C CNN
@@ -192,10 +193,10 @@ F 3 "" H 5400 4300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_Push SW10
+L Switch:SW_Push SW40
 U 1 1 5BC6CD6B
 P 4600 4100
-F 0 "SW10" H 4600 4385 50  0000 C CNN
+F 0 "SW40" H 4600 4385 50  0000 C CNN
 F 1 "Semicolon" H 4600 4294 50  0000 C CNN
 F 2 "unikbd:Key_MX" H 4600 4300 50  0001 C CNN
 F 3 "" H 4600 4300 50  0001 C CNN
@@ -203,10 +204,10 @@ F 3 "" H 4600 4300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_Push SW18
+L Switch:SW_Push SW46
 U 1 1 5BC6CD72
 P 6200 4100
-F 0 "SW18" H 6200 4385 50  0000 C CNN
+F 0 "SW46" H 6200 4385 50  0000 C CNN
 F 1 "SPACE" H 6200 4294 50  0000 C CNN
 F 2 "unikbd:Key_MX" H 6200 4300 50  0001 C CNN
 F 3 "" H 6200 4300 50  0001 C CNN
@@ -214,10 +215,10 @@ F 3 "" H 6200 4300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_Push SW22
+L Switch:SW_Push SW50
 U 1 1 5BC6CD79
 P 7000 4100
-F 0 "SW22" H 7000 4385 50  0000 C CNN
+F 0 "SW50" H 7000 4385 50  0000 C CNN
 F 1 "Z" H 7000 4294 50  0000 C CNN
 F 2 "unikbd:Key_MX" H 7000 4300 50  0001 C CNN
 F 3 "" H 7000 4300 50  0001 C CNN
@@ -225,10 +226,10 @@ F 3 "" H 7000 4300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_Push SW30
+L Switch:SW_Push SW58
 U 1 1 5BC6CD80
 P 8600 4100
-F 0 "SW30" H 8600 4385 50  0000 C CNN
+F 0 "SW58" H 8600 4385 50  0000 C CNN
 F 1 "Q" H 8600 4294 50  0000 C CNN
 F 2 "unikbd:Key_MX" H 8600 4300 50  0001 C CNN
 F 3 "" H 8600 4300 50  0001 C CNN
@@ -236,10 +237,10 @@ F 3 "" H 8600 4300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_Push SW26
+L Switch:SW_Push SW54
 U 1 1 5BC6CD87
 P 7800 4100
-F 0 "SW26" H 7800 4385 50  0000 C CNN
+F 0 "SW54" H 7800 4385 50  0000 C CNN
 F 1 "A" H 7800 4294 50  0000 C CNN
 F 2 "unikbd:Key_MX" H 7800 4300 50  0001 C CNN
 F 3 "" H 7800 4300 50  0001 C CNN
@@ -247,10 +248,10 @@ F 3 "" H 7800 4300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Diode:1N4148 D10
+L Diode:1N4148 D37
 U 1 1 5BC6CD8E
 P 4000 4350
-F 0 "D10" V 4046 4271 50  0000 R CNN
+F 0 "D37" V 4046 4271 50  0000 R CNN
 F 1 "1N4148" V 3955 4271 50  0000 R CNN
 F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 4000 4175 50  0001 C CNN
 F 3 "http://www.nxp.com/documents/data_sheet/1N4148_1N4448.pdf" H 4000 4350 50  0001 C CNN
@@ -258,10 +259,10 @@ F 3 "http://www.nxp.com/documents/data_sheet/1N4148_1N4448.pdf" H 4000 4350 50  
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Diode:1N4148 D14
+L Diode:1N4148 D41
 U 1 1 5BC6CD9C
 P 4800 4350
-F 0 "D14" V 4846 4271 50  0000 R CNN
+F 0 "D41" V 4846 4271 50  0000 R CNN
 F 1 "1N4148" V 4755 4271 50  0000 R CNN
 F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 4800 4175 50  0001 C CNN
 F 3 "http://www.nxp.com/documents/data_sheet/1N4148_1N4448.pdf" H 4800 4350 50  0001 C CNN
@@ -269,10 +270,10 @@ F 3 "http://www.nxp.com/documents/data_sheet/1N4148_1N4448.pdf" H 4800 4350 50  
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Diode:1N4148 D18
+L Diode:1N4148 D44
 U 1 1 5BC6CDA3
 P 5600 4350
-F 0 "D18" V 5646 4271 50  0000 R CNN
+F 0 "D44" V 5646 4271 50  0000 R CNN
 F 1 "1N4148" V 5555 4271 50  0000 R CNN
 F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 5600 4175 50  0001 C CNN
 F 3 "http://www.nxp.com/documents/data_sheet/1N4148_1N4448.pdf" H 5600 4350 50  0001 C CNN
@@ -280,10 +281,10 @@ F 3 "http://www.nxp.com/documents/data_sheet/1N4148_1N4448.pdf" H 5600 4350 50  
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Diode:1N4148 D22
+L Diode:1N4148 D47
 U 1 1 5BC6CDAA
 P 6400 4350
-F 0 "D22" V 6446 4271 50  0000 R CNN
+F 0 "D47" V 6446 4271 50  0000 R CNN
 F 1 "1N4148" V 6355 4271 50  0000 R CNN
 F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 6400 4175 50  0001 C CNN
 F 3 "http://www.nxp.com/documents/data_sheet/1N4148_1N4448.pdf" H 6400 4350 50  0001 C CNN
@@ -291,10 +292,10 @@ F 3 "http://www.nxp.com/documents/data_sheet/1N4148_1N4448.pdf" H 6400 4350 50  
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Diode:1N4148 D26
+L Diode:1N4148 D51
 U 1 1 5BC6CDB1
 P 7200 4350
-F 0 "D26" V 7246 4271 50  0000 R CNN
+F 0 "D51" V 7246 4271 50  0000 R CNN
 F 1 "1N4148" V 7155 4271 50  0000 R CNN
 F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 7200 4175 50  0001 C CNN
 F 3 "http://www.nxp.com/documents/data_sheet/1N4148_1N4448.pdf" H 7200 4350 50  0001 C CNN
@@ -302,10 +303,10 @@ F 3 "http://www.nxp.com/documents/data_sheet/1N4148_1N4448.pdf" H 7200 4350 50  
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Diode:1N4148 D30
+L Diode:1N4148 D55
 U 1 1 5BC6CDB8
 P 8000 4350
-F 0 "D30" V 8046 4271 50  0000 R CNN
+F 0 "D55" V 8046 4271 50  0000 R CNN
 F 1 "1N4148" V 7955 4271 50  0000 R CNN
 F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 8000 4175 50  0001 C CNN
 F 3 "http://www.nxp.com/documents/data_sheet/1N4148_1N4448.pdf" H 8000 4350 50  0001 C CNN
@@ -313,10 +314,10 @@ F 3 "http://www.nxp.com/documents/data_sheet/1N4148_1N4448.pdf" H 8000 4350 50  
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Diode:1N4148 D34
+L Diode:1N4148 D59
 U 1 1 5BC6CDBF
 P 8800 4350
-F 0 "D34" V 8846 4271 50  0000 R CNN
+F 0 "D59" V 8846 4271 50  0000 R CNN
 F 1 "1N4148" V 8755 4271 50  0000 R CNN
 F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 8800 4175 50  0001 C CNN
 F 3 "http://www.nxp.com/documents/data_sheet/1N4148_1N4448.pdf" H 8800 4350 50  0001 C CNN
@@ -324,10 +325,10 @@ F 3 "http://www.nxp.com/documents/data_sheet/1N4148_1N4448.pdf" H 8800 4350 50  
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Switch:SW_Push SW3
+L Switch:SW_Push SW33
 U 1 1 5BC6CED6
 P 3000 5000
-F 0 "SW3" H 3000 5285 50  0000 C CNN
+F 0 "SW33" H 3000 5285 50  0000 C CNN
 F 1 "Break" H 3000 5194 50  0000 C CNN
 F 2 "unikbd:Key_MX" H 3000 5200 50  0001 C CNN
 F 3 "" H 3000 5200 50  0001 C CNN
@@ -335,10 +336,10 @@ F 3 "" H 3000 5200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_Push SW7
+L Switch:SW_Push SW37
 U 1 1 5BC6CEDD
 P 3800 5000
-F 0 "SW7" H 3800 5285 50  0000 C CNN
+F 0 "SW37" H 3800 5285 50  0000 C CNN
 F 1 "Comma" H 3800 5194 50  0000 C CNN
 F 2 "unikbd:Key_MX" H 3800 5200 50  0001 C CNN
 F 3 "" H 3800 5200 50  0001 C CNN
@@ -346,10 +347,10 @@ F 3 "" H 3800 5200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_Push SW15
+L Switch:SW_Push SW44
 U 1 1 5BC6CEE4
 P 5400 5000
-F 0 "SW15" H 5400 5285 50  0000 C CNN
+F 0 "SW44" H 5400 5285 50  0000 C CNN
 F 1 "N" H 5400 5194 50  0000 C CNN
 F 2 "unikbd:Key_MX" H 5400 5200 50  0001 C CNN
 F 3 "" H 5400 5200 50  0001 C CNN
@@ -357,10 +358,10 @@ F 3 "" H 5400 5200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_Push SW11
+L Switch:SW_Push SW41
 U 1 1 5BC6CEEB
 P 4600 5000
-F 0 "SW11" H 4600 5285 50  0000 C CNN
+F 0 "SW41" H 4600 5285 50  0000 C CNN
 F 1 "M" H 4600 5194 50  0000 C CNN
 F 2 "unikbd:Key_MX" H 4600 5200 50  0001 C CNN
 F 3 "" H 4600 5200 50  0001 C CNN
@@ -368,10 +369,10 @@ F 3 "" H 4600 5200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_Push SW19
+L Switch:SW_Push SW47
 U 1 1 5BC6CEF2
 P 6200 5000
-F 0 "SW19" H 6200 5285 50  0000 C CNN
+F 0 "SW47" H 6200 5285 50  0000 C CNN
 F 1 "B" H 6200 5194 50  0000 C CNN
 F 2 "unikbd:Key_MX" H 6200 5200 50  0001 C CNN
 F 3 "" H 6200 5200 50  0001 C CNN
@@ -379,10 +380,10 @@ F 3 "" H 6200 5200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_Push SW23
+L Switch:SW_Push SW51
 U 1 1 5BC6CEF9
 P 7000 5000
-F 0 "SW23" H 7000 5285 50  0000 C CNN
+F 0 "SW51" H 7000 5285 50  0000 C CNN
 F 1 "V" H 7000 5194 50  0000 C CNN
 F 2 "unikbd:Key_MX" H 7000 5200 50  0001 C CNN
 F 3 "" H 7000 5200 50  0001 C CNN
@@ -390,10 +391,10 @@ F 3 "" H 7000 5200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_Push SW31
+L Switch:SW_Push SW59
 U 1 1 5BC6CF00
 P 8600 5000
-F 0 "SW31" H 8600 5285 50  0000 C CNN
+F 0 "SW59" H 8600 5285 50  0000 C CNN
 F 1 "X" H 8600 5194 50  0000 C CNN
 F 2 "unikbd:Key_MX" H 8600 5200 50  0001 C CNN
 F 3 "" H 8600 5200 50  0001 C CNN
@@ -401,10 +402,10 @@ F 3 "" H 8600 5200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_Push SW27
+L Switch:SW_Push SW55
 U 1 1 5BC6CF07
 P 7800 5000
-F 0 "SW27" H 7800 5285 50  0000 C CNN
+F 0 "SW55" H 7800 5285 50  0000 C CNN
 F 1 "C" H 7800 5194 50  0000 C CNN
 F 2 "unikbd:Key_MX" H 7800 5200 50  0001 C CNN
 F 3 "" H 7800 5200 50  0001 C CNN
@@ -412,10 +413,10 @@ F 3 "" H 7800 5200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Diode:1N4148 D11
+L Diode:1N4148 D38
 U 1 1 5BC6CF0E
 P 4000 5250
-F 0 "D11" V 4046 5171 50  0000 R CNN
+F 0 "D38" V 4046 5171 50  0000 R CNN
 F 1 "1N4148" V 3955 5171 50  0000 R CNN
 F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 4000 5075 50  0001 C CNN
 F 3 "http://www.nxp.com/documents/data_sheet/1N4148_1N4448.pdf" H 4000 5250 50  0001 C CNN
@@ -423,10 +424,10 @@ F 3 "http://www.nxp.com/documents/data_sheet/1N4148_1N4448.pdf" H 4000 5250 50  
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Diode:1N4148 D7
+L Diode:1N4148 D34
 U 1 1 5BC6CF15
 P 3200 5250
-F 0 "D7" V 3246 5171 50  0000 R CNN
+F 0 "D34" V 3246 5171 50  0000 R CNN
 F 1 "1N4148" V 3155 5171 50  0000 R CNN
 F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 3200 5075 50  0001 C CNN
 F 3 "http://www.nxp.com/documents/data_sheet/1N4148_1N4448.pdf" H 3200 5250 50  0001 C CNN
@@ -434,10 +435,10 @@ F 3 "http://www.nxp.com/documents/data_sheet/1N4148_1N4448.pdf" H 3200 5250 50  
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Diode:1N4148 D15
+L Diode:1N4148 D42
 U 1 1 5BC6CF1C
 P 4800 5250
-F 0 "D15" V 4846 5171 50  0000 R CNN
+F 0 "D42" V 4846 5171 50  0000 R CNN
 F 1 "1N4148" V 4755 5171 50  0000 R CNN
 F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 4800 5075 50  0001 C CNN
 F 3 "http://www.nxp.com/documents/data_sheet/1N4148_1N4448.pdf" H 4800 5250 50  0001 C CNN
@@ -445,10 +446,10 @@ F 3 "http://www.nxp.com/documents/data_sheet/1N4148_1N4448.pdf" H 4800 5250 50  
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Diode:1N4148 D19
+L Diode:1N4148 D45
 U 1 1 5BC6CF23
 P 5600 5250
-F 0 "D19" V 5646 5171 50  0000 R CNN
+F 0 "D45" V 5646 5171 50  0000 R CNN
 F 1 "1N4148" V 5555 5171 50  0000 R CNN
 F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 5600 5075 50  0001 C CNN
 F 3 "http://www.nxp.com/documents/data_sheet/1N4148_1N4448.pdf" H 5600 5250 50  0001 C CNN
@@ -456,10 +457,10 @@ F 3 "http://www.nxp.com/documents/data_sheet/1N4148_1N4448.pdf" H 5600 5250 50  
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Diode:1N4148 D23
+L Diode:1N4148 D48
 U 1 1 5BC6CF2A
 P 6400 5250
-F 0 "D23" V 6446 5171 50  0000 R CNN
+F 0 "D48" V 6446 5171 50  0000 R CNN
 F 1 "1N4148" V 6355 5171 50  0000 R CNN
 F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 6400 5075 50  0001 C CNN
 F 3 "http://www.nxp.com/documents/data_sheet/1N4148_1N4448.pdf" H 6400 5250 50  0001 C CNN
@@ -467,10 +468,10 @@ F 3 "http://www.nxp.com/documents/data_sheet/1N4148_1N4448.pdf" H 6400 5250 50  
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Diode:1N4148 D27
+L Diode:1N4148 D52
 U 1 1 5BC6CF31
 P 7200 5250
-F 0 "D27" V 7246 5171 50  0000 R CNN
+F 0 "D52" V 7246 5171 50  0000 R CNN
 F 1 "1N4148" V 7155 5171 50  0000 R CNN
 F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 7200 5075 50  0001 C CNN
 F 3 "http://www.nxp.com/documents/data_sheet/1N4148_1N4448.pdf" H 7200 5250 50  0001 C CNN
@@ -478,10 +479,10 @@ F 3 "http://www.nxp.com/documents/data_sheet/1N4148_1N4448.pdf" H 7200 5250 50  
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Diode:1N4148 D31
+L Diode:1N4148 D56
 U 1 1 5BC6CF38
 P 8000 5250
-F 0 "D31" V 8046 5171 50  0000 R CNN
+F 0 "D56" V 8046 5171 50  0000 R CNN
 F 1 "1N4148" V 7955 5171 50  0000 R CNN
 F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 8000 5075 50  0001 C CNN
 F 3 "http://www.nxp.com/documents/data_sheet/1N4148_1N4448.pdf" H 8000 5250 50  0001 C CNN
@@ -489,10 +490,10 @@ F 3 "http://www.nxp.com/documents/data_sheet/1N4148_1N4448.pdf" H 8000 5250 50  
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Diode:1N4148 D35
+L Diode:1N4148 D60
 U 1 1 5BC6CF3F
 P 8800 5250
-F 0 "D35" V 8846 5171 50  0000 R CNN
+F 0 "D60" V 8846 5171 50  0000 R CNN
 F 1 "1N4148" V 8755 5171 50  0000 R CNN
 F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 8800 5075 50  0001 C CNN
 F 3 "http://www.nxp.com/documents/data_sheet/1N4148_1N4448.pdf" H 8800 5250 50  0001 C CNN
@@ -500,10 +501,10 @@ F 3 "http://www.nxp.com/documents/data_sheet/1N4148_1N4448.pdf" H 8800 5250 50  
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Switch:SW_Push SW4
+L Switch:SW_Push SW34
 U 1 1 5BC6D0A6
 P 3000 5900
-F 0 "SW4" H 3000 6185 50  0000 C CNN
+F 0 "SW34" H 3000 6185 50  0000 C CNN
 F 1 "Rubout" H 3000 6094 50  0000 C CNN
 F 2 "unikbd:Key_MX" H 3000 6100 50  0001 C CNN
 F 3 "" H 3000 6100 50  0001 C CNN
@@ -511,10 +512,10 @@ F 3 "" H 3000 6100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_Push SW8
+L Switch:SW_Push SW38
 U 1 1 5BC6D0AD
 P 3800 5900
-F 0 "SW8" H 3800 6185 50  0000 C CNN
+F 0 "SW38" H 3800 6185 50  0000 C CNN
 F 1 "K" H 3800 6094 50  0000 C CNN
 F 2 "unikbd:Key_MX" H 3800 6100 50  0001 C CNN
 F 3 "" H 3800 6100 50  0001 C CNN
@@ -522,10 +523,10 @@ F 3 "" H 3800 6100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_Push SW16
+L Switch:SW_Push SW45
 U 1 1 5BC6D0B4
 P 5400 5900
-F 0 "SW16" H 5400 6185 50  0000 C CNN
+F 0 "SW45" H 5400 6185 50  0000 C CNN
 F 1 "H" H 5400 6094 50  0000 C CNN
 F 2 "unikbd:Key_MX" H 5400 6100 50  0001 C CNN
 F 3 "" H 5400 6100 50  0001 C CNN
@@ -533,10 +534,10 @@ F 3 "" H 5400 6100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_Push SW12
+L Switch:SW_Push SW42
 U 1 1 5BC6D0BB
 P 4600 5900
-F 0 "SW12" H 4600 6185 50  0000 C CNN
+F 0 "SW42" H 4600 6185 50  0000 C CNN
 F 1 "J" H 4600 6094 50  0000 C CNN
 F 2 "unikbd:Key_MX" H 4600 6100 50  0001 C CNN
 F 3 "" H 4600 6100 50  0001 C CNN
@@ -544,10 +545,10 @@ F 3 "" H 4600 6100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_Push SW20
+L Switch:SW_Push SW48
 U 1 1 5BC6D0C2
 P 6200 5900
-F 0 "SW20" H 6200 6185 50  0000 C CNN
+F 0 "SW48" H 6200 6185 50  0000 C CNN
 F 1 "G" H 6200 6094 50  0000 C CNN
 F 2 "unikbd:Key_MX" H 6200 6100 50  0001 C CNN
 F 3 "" H 6200 6100 50  0001 C CNN
@@ -555,10 +556,10 @@ F 3 "" H 6200 6100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_Push SW24
+L Switch:SW_Push SW52
 U 1 1 5BC6D0C9
 P 7000 5900
-F 0 "SW24" H 7000 6185 50  0000 C CNN
+F 0 "SW52" H 7000 6185 50  0000 C CNN
 F 1 "F" H 7000 6094 50  0000 C CNN
 F 2 "unikbd:Key_MX" H 7000 6100 50  0001 C CNN
 F 3 "" H 7000 6100 50  0001 C CNN
@@ -566,10 +567,10 @@ F 3 "" H 7000 6100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_Push SW32
+L Switch:SW_Push SW60
 U 1 1 5BC6D0D0
 P 8600 5900
-F 0 "SW32" H 8600 6185 50  0000 C CNN
+F 0 "SW60" H 8600 6185 50  0000 C CNN
 F 1 "S" H 8600 6094 50  0000 C CNN
 F 2 "unikbd:Key_MX" H 8600 6100 50  0001 C CNN
 F 3 "" H 8600 6100 50  0001 C CNN
@@ -577,10 +578,10 @@ F 3 "" H 8600 6100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_Push SW28
+L Switch:SW_Push SW56
 U 1 1 5BC6D0D7
 P 7800 5900
-F 0 "SW28" H 7800 6185 50  0000 C CNN
+F 0 "SW56" H 7800 6185 50  0000 C CNN
 F 1 "D" H 7800 6094 50  0000 C CNN
 F 2 "unikbd:Key_MX" H 7800 6100 50  0001 C CNN
 F 3 "" H 7800 6100 50  0001 C CNN
@@ -588,10 +589,10 @@ F 3 "" H 7800 6100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Diode:1N4148 D12
+L Diode:1N4148 D39
 U 1 1 5BC6D0DE
 P 4000 6150
-F 0 "D12" V 4046 6071 50  0000 R CNN
+F 0 "D39" V 4046 6071 50  0000 R CNN
 F 1 "1N4148" V 3955 6071 50  0000 R CNN
 F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 4000 5975 50  0001 C CNN
 F 3 "http://www.nxp.com/documents/data_sheet/1N4148_1N4448.pdf" H 4000 6150 50  0001 C CNN
@@ -599,10 +600,10 @@ F 3 "http://www.nxp.com/documents/data_sheet/1N4148_1N4448.pdf" H 4000 6150 50  
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Diode:1N4148 D8
+L Diode:1N4148 D35
 U 1 1 5BC6D0E5
 P 3200 6150
-F 0 "D8" V 3246 6071 50  0000 R CNN
+F 0 "D35" V 3246 6071 50  0000 R CNN
 F 1 "1N4148" V 3155 6071 50  0000 R CNN
 F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 3200 5975 50  0001 C CNN
 F 3 "http://www.nxp.com/documents/data_sheet/1N4148_1N4448.pdf" H 3200 6150 50  0001 C CNN
@@ -610,10 +611,10 @@ F 3 "http://www.nxp.com/documents/data_sheet/1N4148_1N4448.pdf" H 3200 6150 50  
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Diode:1N4148 D16
+L Diode:1N4148 D43
 U 1 1 5BC6D0EC
 P 4800 6150
-F 0 "D16" V 4846 6071 50  0000 R CNN
+F 0 "D43" V 4846 6071 50  0000 R CNN
 F 1 "1N4148" V 4755 6071 50  0000 R CNN
 F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 4800 5975 50  0001 C CNN
 F 3 "http://www.nxp.com/documents/data_sheet/1N4148_1N4448.pdf" H 4800 6150 50  0001 C CNN
@@ -621,10 +622,10 @@ F 3 "http://www.nxp.com/documents/data_sheet/1N4148_1N4448.pdf" H 4800 6150 50  
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Diode:1N4148 D20
+L Diode:1N4148 D46
 U 1 1 5BC6D0F3
 P 5600 6150
-F 0 "D20" V 5646 6071 50  0000 R CNN
+F 0 "D46" V 5646 6071 50  0000 R CNN
 F 1 "1N4148" V 5555 6071 50  0000 R CNN
 F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 5600 5975 50  0001 C CNN
 F 3 "http://www.nxp.com/documents/data_sheet/1N4148_1N4448.pdf" H 5600 6150 50  0001 C CNN
@@ -632,10 +633,10 @@ F 3 "http://www.nxp.com/documents/data_sheet/1N4148_1N4448.pdf" H 5600 6150 50  
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Diode:1N4148 D24
+L Diode:1N4148 D49
 U 1 1 5BC6D0FA
 P 6400 6150
-F 0 "D24" V 6446 6071 50  0000 R CNN
+F 0 "D49" V 6446 6071 50  0000 R CNN
 F 1 "1N4148" V 6355 6071 50  0000 R CNN
 F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 6400 5975 50  0001 C CNN
 F 3 "http://www.nxp.com/documents/data_sheet/1N4148_1N4448.pdf" H 6400 6150 50  0001 C CNN
@@ -643,10 +644,10 @@ F 3 "http://www.nxp.com/documents/data_sheet/1N4148_1N4448.pdf" H 6400 6150 50  
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Diode:1N4148 D28
+L Diode:1N4148 D53
 U 1 1 5BC6D101
 P 7200 6150
-F 0 "D28" V 7246 6071 50  0000 R CNN
+F 0 "D53" V 7246 6071 50  0000 R CNN
 F 1 "1N4148" V 7155 6071 50  0000 R CNN
 F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 7200 5975 50  0001 C CNN
 F 3 "http://www.nxp.com/documents/data_sheet/1N4148_1N4448.pdf" H 7200 6150 50  0001 C CNN
@@ -654,10 +655,10 @@ F 3 "http://www.nxp.com/documents/data_sheet/1N4148_1N4448.pdf" H 7200 6150 50  
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Diode:1N4148 D32
+L Diode:1N4148 D57
 U 1 1 5BC6D108
 P 8000 6150
-F 0 "D32" V 8046 6071 50  0000 R CNN
+F 0 "D57" V 8046 6071 50  0000 R CNN
 F 1 "1N4148" V 7955 6071 50  0000 R CNN
 F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 8000 5975 50  0001 C CNN
 F 3 "http://www.nxp.com/documents/data_sheet/1N4148_1N4448.pdf" H 8000 6150 50  0001 C CNN
@@ -665,10 +666,10 @@ F 3 "http://www.nxp.com/documents/data_sheet/1N4148_1N4448.pdf" H 8000 6150 50  
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Diode:1N4148 D36
+L Diode:1N4148 D61
 U 1 1 5BC6D10F
 P 8800 6150
-F 0 "D36" V 8846 6071 50  0000 R CNN
+F 0 "D61" V 8846 6071 50  0000 R CNN
 F 1 "1N4148" V 8755 6071 50  0000 R CNN
 F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 8800 5975 50  0001 C CNN
 F 3 "http://www.nxp.com/documents/data_sheet/1N4148_1N4448.pdf" H 8800 6150 50  0001 C CNN
@@ -890,67 +891,9 @@ Wire Wire Line
 Connection ~ 8400 5000
 Wire Wire Line
 	8400 5000 8400 5900
-Wire Wire Line
-	1450 6300 1850 6300
 Connection ~ 3200 6300
-Wire Wire Line
-	1450 5400 1900 5400
 Connection ~ 3200 5400
-Wire Wire Line
-	1450 4500 1900 4500
-Wire Wire Line
-	1450 3600 1900 3600
 Connection ~ 3200 3600
-$Comp
-L Diode:1N4148 D2
-U 1 1 5CFAC99E
-P 2050 3600
-F 0 "D2" H 2050 3700 50  0000 R CNN
-F 1 "1N4148" H 2250 3450 50  0000 R CNN
-F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 2050 3425 50  0001 C CNN
-F 3 "http://www.nxp.com/documents/data_sheet/1N4148_1N4448.pdf" H 2050 3600 50  0001 C CNN
-	1    2050 3600
-	1    0    0    -1  
-$EndComp
-$Comp
-L Diode:1N4148 D3
-U 1 1 5CFACBE0
-P 2050 4500
-F 0 "D3" H 2050 4650 50  0000 R CNN
-F 1 "1N4148" H 2250 4350 50  0000 R CNN
-F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 2050 4325 50  0001 C CNN
-F 3 "http://www.nxp.com/documents/data_sheet/1N4148_1N4448.pdf" H 2050 4500 50  0001 C CNN
-	1    2050 4500
-	1    0    0    -1  
-$EndComp
-$Comp
-L Diode:1N4148 D4
-U 1 1 5CFACC82
-P 2050 5400
-F 0 "D4" H 2050 5550 50  0000 R CNN
-F 1 "1N4148" H 2250 5250 50  0000 R CNN
-F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 2050 5225 50  0001 C CNN
-F 3 "http://www.nxp.com/documents/data_sheet/1N4148_1N4448.pdf" H 2050 5400 50  0001 C CNN
-	1    2050 5400
-	1    0    0    -1  
-$EndComp
-$Comp
-L Diode:1N4148 D1
-U 1 1 5CFACD22
-P 2000 6300
-F 0 "D1" H 2000 6450 50  0000 R CNN
-F 1 "1N4148" H 2200 6150 50  0000 R CNN
-F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 2000 6125 50  0001 C CNN
-F 3 "http://www.nxp.com/documents/data_sheet/1N4148_1N4448.pdf" H 2000 6300 50  0001 C CNN
-	1    2000 6300
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	2200 3600 3200 3600
-Wire Wire Line
-	2200 5400 3200 5400
-Wire Wire Line
-	2150 6300 3200 6300
 Text Notes 1100 7100 0    50   ~ 0
 (Install either Row diodes or switch diodes.  Jumper uninstalled diodes.
 Text Label 2300 3600 0    50   ~ 0
@@ -964,11 +907,19 @@ Wire Wire Line
 Connection ~ 2800 5000
 Connection ~ 2800 3200
 Wire Wire Line
-	2200 4500 4000 4500
-Wire Wire Line
 	2800 3200 2800 5000
 Wire Wire Line
 	6000 1700 6000 4100
 Wire Wire Line
 	4800 3600 7200 3600
+Text Label 2300 6300 0    50   ~ 0
+Row3_keys
+Wire Wire Line
+	1450 3600 3200 3600
+Wire Wire Line
+	1450 4500 4000 4500
+Wire Wire Line
+	1450 5400 3200 5400
+Wire Wire Line
+	1450 6300 3200 6300
 $EndSCHEMATC

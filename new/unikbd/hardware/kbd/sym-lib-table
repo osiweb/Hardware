@@ -1,3 +1,0 @@
-(sym_lib_table
-  (lib (name unikbd)(type Legacy)(uri ${KIPRJMOD}/unikbd.lib)(options "")(descr ""))
-)
