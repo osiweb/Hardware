@@ -5,10 +5,10 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 3 3
-Title "Universal retro keyboard"
-Date "2019-05-06"
-Rev ""
-Comp ""
+Title "Universal Retro Keyboard"
+Date "2019-08-25"
+Rev "1.0"
+Comp "OSIWeb.org"
 Comment1 "Key Matrix part 2"
 Comment2 ""
 Comment3 ""
@@ -38,17 +38,6 @@ Text HLabel 1450 2300 0    60   Input ~ 0
 Col1
 Text HLabel 1450 2500 0    60   Input ~ 0
 Col0
-$Comp
-L Switch:SW_Push SW32
-U 1 1 5BC3FCBC
-P 3000 3200
-F 0 "SW32" H 3000 3485 50  0000 C CNN
-F 1 "Ampersand" H 3000 3394 50  0000 C CNN
-F 2 "unikbd:Key_MX" H 3000 3400 50  0001 C CNN
-F 3 "" H 3000 3400 50  0001 C CNN
-	1    3000 3200
-	1    0    0    -1  
-$EndComp
 $Comp
 L Switch:SW_Push SW35
 U 1 1 5BC3FD26
@@ -113,17 +102,6 @@ F 1 "1N4148" V 3955 3371 50  0000 R CNN
 F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 4000 3275 50  0001 C CNN
 F 3 "http://www.nxp.com/documents/data_sheet/1N4148_1N4448.pdf" H 4000 3450 50  0001 C CNN
 	1    4000 3450
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Diode:1N4148 D33
-U 1 1 5BC6CA60
-P 3200 3450
-F 0 "D33" V 3246 3371 50  0000 R CNN
-F 1 "1N4148" V 3155 3371 50  0000 R CNN
-F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 3200 3275 50  0001 C CNN
-F 3 "http://www.nxp.com/documents/data_sheet/1N4148_1N4448.pdf" H 3200 3450 50  0001 C CNN
-	1    3200 3450
 	0    -1   -1   0   
 $EndComp
 $Comp
@@ -501,17 +479,6 @@ F 3 "http://www.nxp.com/documents/data_sheet/1N4148_1N4448.pdf" H 8800 5250 50  
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Switch:SW_Push SW34
-U 1 1 5BC6D0A6
-P 3000 5900
-F 0 "SW34" H 3000 6185 50  0000 C CNN
-F 1 "Rubout" H 3000 6094 50  0000 C CNN
-F 2 "unikbd:Key_MX" H 3000 6100 50  0001 C CNN
-F 3 "" H 3000 6100 50  0001 C CNN
-	1    3000 5900
-	1    0    0    -1  
-$EndComp
-$Comp
 L Switch:SW_Push SW38
 U 1 1 5BC6D0AD
 P 3800 5900
@@ -600,17 +567,6 @@ F 3 "http://www.nxp.com/documents/data_sheet/1N4148_1N4448.pdf" H 4000 6150 50  
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Diode:1N4148 D35
-U 1 1 5BC6D0E5
-P 3200 6150
-F 0 "D35" V 3246 6071 50  0000 R CNN
-F 1 "1N4148" V 3155 6071 50  0000 R CNN
-F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 3200 5975 50  0001 C CNN
-F 3 "http://www.nxp.com/documents/data_sheet/1N4148_1N4448.pdf" H 3200 6150 50  0001 C CNN
-	1    3200 6150
-	0    -1   -1   0   
-$EndComp
-$Comp
 L Diode:1N4148 D43
 U 1 1 5BC6D0EC
 P 4800 6150
@@ -676,8 +632,6 @@ F 3 "http://www.nxp.com/documents/data_sheet/1N4148_1N4448.pdf" H 8800 6150 50  
 	1    8800 6150
 	0    -1   -1   0   
 $EndComp
-Wire Wire Line
-	3200 3600 4000 3600
 Connection ~ 4000 3600
 Wire Wire Line
 	4000 3600 4800 3600
@@ -726,8 +680,6 @@ Wire Wire Line
 Connection ~ 8000 5400
 Wire Wire Line
 	8000 5400 8800 5400
-Wire Wire Line
-	3200 6300 4000 6300
 Connection ~ 4000 6300
 Wire Wire Line
 	4000 6300 4800 6300
@@ -746,8 +698,6 @@ Wire Wire Line
 Connection ~ 8000 6300
 Wire Wire Line
 	8000 6300 8800 6300
-Wire Wire Line
-	3200 6000 3200 5900
 Wire Wire Line
 	4000 5900 4000 6000
 Wire Wire Line
@@ -779,8 +729,6 @@ Wire Wire Line
 Wire Wire Line
 	3200 5100 3200 5000
 Wire Wire Line
-	3200 3300 3200 3200
-Wire Wire Line
 	4000 3200 4000 3300
 Wire Wire Line
 	4000 4100 4000 4200
@@ -806,10 +754,6 @@ Wire Wire Line
 	8800 3200 8800 3300
 Wire Wire Line
 	1450 2500 2800 2500
-Wire Wire Line
-	2800 2500 2800 3200
-Wire Wire Line
-	2800 5000 2800 5900
 Wire Wire Line
 	1450 2300 3600 2300
 Wire Wire Line
@@ -891,9 +835,7 @@ Wire Wire Line
 Connection ~ 8400 5000
 Wire Wire Line
 	8400 5000 8400 5900
-Connection ~ 3200 6300
 Connection ~ 3200 5400
-Connection ~ 3200 3600
 Text Notes 1100 7100 0    50   ~ 0
 (Install either Row diodes or switch diodes.  Jumper uninstalled diodes.
 Text Label 2300 3600 0    50   ~ 0
@@ -904,10 +846,6 @@ Text Label 2300 5400 0    50   ~ 0
 Row2_keys
 Wire Wire Line
 	5200 1900 5200 4100
-Connection ~ 2800 5000
-Connection ~ 2800 3200
-Wire Wire Line
-	2800 3200 2800 5000
 Wire Wire Line
 	6000 1700 6000 4100
 Wire Wire Line
@@ -915,11 +853,13 @@ Wire Wire Line
 Text Label 2300 6300 0    50   ~ 0
 Row3_keys
 Wire Wire Line
-	1450 3600 3200 3600
-Wire Wire Line
 	1450 4500 4000 4500
 Wire Wire Line
 	1450 5400 3200 5400
 Wire Wire Line
-	1450 6300 3200 6300
+	2800 2500 2800 5000
+Wire Wire Line
+	1450 3600 4000 3600
+Wire Wire Line
+	1450 6300 4000 6300
 $EndSCHEMATC

@@ -5,11 +5,11 @@ EELAYER END
 $Descr USLetter 11000 8500
 encoding utf-8
 Sheet 1 3
-Title ""
-Date ""
-Rev ""
-Comp ""
-Comment1 ""
+Title "Universal Retro Keyboard"
+Date "2019-08-25"
+Rev "1.0"
+Comp "OSIWeb.org"
+Comment1 "Main sheet with connector"
 Comment2 ""
 Comment3 ""
 Comment4 ""
@@ -232,20 +232,80 @@ $EndComp
 $Comp
 L LED:CQY99 D1
 U 1 1 5D23E1B4
-P 7050 1350
-F 0 "D1" H 7000 1640 50  0000 C CNN
-F 1 "CQY99" H 7000 1549 50  0000 C CNN
-F 2 "LED_THT:LED_D5.0mm_IRGrey" H 7050 1525 50  0001 C CNN
-F 3 "https://www.prtice.info/IMG/pdf/CQY99.pdf" H 7000 1350 50  0001 C CNN
-	1    7050 1350
+P 6830 1350
+F 0 "D1" H 6780 1640 50  0000 C CNN
+F 1 "CQY99" H 6780 1549 50  0000 C CNN
+F 2 "LED_THT:LED_D5.0mm_IRGrey" H 6830 1525 50  0001 C CNN
+F 3 "https://www.prtice.info/IMG/pdf/CQY99.pdf" H 6780 1350 50  0001 C CNN
+	1    6830 1350
 	-1   0    0    -1  
 $EndComp
 Wire Wire Line
-	6500 1350 6950 1350
+	6500 1350 6730 1350
 Wire Wire Line
-	7250 1350 7550 1350
+	7030 1350 7090 1350
 Wire Wire Line
-	7550 1350 7550 1450
+	7090 1350 7090 1450
 Wire Wire Line
-	7550 1450 6500 1450
+	7090 1450 6500 1450
+$Comp
+L Switch:SW_Push SW?
+U 1 1 5D6BE647
+P 7280 1550
+AR Path="/5BC3E99D/5D6BE647" Ref="SW?"  Part="1" 
+AR Path="/5D6BE647" Ref="SW32"  Part="1" 
+F 0 "SW32" H 7280 1835 50  0000 C CNN
+F 1 "Ampersand" H 7280 1744 50  0000 C CNN
+F 2 "unikbd:Key_MX" H 7280 1750 50  0001 C CNN
+F 3 "" H 7280 1750 50  0001 C CNN
+	1    7280 1550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW?
+U 1 1 5D6C3751
+P 7700 1750
+AR Path="/5BC3E99D/5D6C3751" Ref="SW?"  Part="1" 
+AR Path="/5D6C3751" Ref="SW34"  Part="1" 
+F 0 "SW34" H 7700 2035 50  0000 C CNN
+F 1 "Rubout" H 7700 1944 50  0000 C CNN
+F 2 "unikbd:Key_MX" H 7700 1950 50  0001 C CNN
+F 3 "" H 7700 1950 50  0001 C CNN
+	1    7700 1750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7080 1550 6500 1550
+Wire Wire Line
+	6500 1650 7520 1650
+Wire Wire Line
+	7520 1650 7520 1550
+Wire Wire Line
+	7520 1550 7480 1550
+Wire Wire Line
+	7945 1750 7900 1750
+Wire Wire Line
+	6500 1750 7500 1750
+Wire Wire Line
+	6500 1850 7945 1850
+Wire Wire Line
+	7945 1750 7945 1850
+NoConn ~ 6500 1950
+NoConn ~ 6500 2050
+NoConn ~ 6500 2150
+NoConn ~ 6500 2250
+NoConn ~ 6500 2350
+NoConn ~ 6500 2450
+NoConn ~ 6500 2550
+NoConn ~ 6500 2650
+NoConn ~ 6500 2750
+NoConn ~ 6500 2850
+NoConn ~ 6500 2950
+NoConn ~ 6500 3050
+NoConn ~ 6500 3150
+NoConn ~ 6500 3250
+NoConn ~ 6000 3250
+NoConn ~ 6000 3150
+NoConn ~ 6000 3050
+NoConn ~ 6000 2950
 $EndSCHEMATC
