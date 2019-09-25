@@ -37,6 +37,7 @@ the pins (no current should flow through the network).
 1. Solder one wire to pin 3 of U22.
 1. Solder the other wire to pin 5 of U22.
 1. Plug the female connector into the rightmost pair of pins on the Personality Module's pin header.
+1. Route the wires neatly using tie wraps where possible.
 
 ## Fxxx remapping (with one of the mods above)
 1. To remap the ROM, system RAM, and video to Fxxx, make sure the selected ROM
