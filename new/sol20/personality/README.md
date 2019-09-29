@@ -7,8 +7,9 @@ This is a "Universal" personality module for the SOL-20.  It's features include:
 * Supports 27/28C256, 27/28C128, 27/28C64
 * Supports remapping ROM, sysem RAM, and video to Fxxx, with a trivial mod to
   the motherboard (and re-assembling ROM images to run at F000). The mod does
-  not require cutting any traces, so it's fully reversible, unlike the
-  modification described in the Micro Complex manual.
+  not require cutting any traces, so it's fully reversible and doesn't require
+  modifications to other personality modules to be used with the modified
+  mainboard, unlike the modification described in the Micro Complex manual.
 
 ## Parts
 1. U1 - 74LS08
