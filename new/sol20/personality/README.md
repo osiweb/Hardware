@@ -29,16 +29,13 @@ the pins (no current should flow through the network).
 1. Reinstall the SOL-PC mainboard and reassemble.
 
 ## Fxxx mapping modification - no mainboard jumpers (Use cable instead)
-1. With the personality module installed, estimate the length of wire you need
-   to route neatly between pin 3 of U22 and the rightmost header pins (when the
-   SOL is facing you, as if you are typing.)
 1. Start with a 2-wire cable with 2-pin female socket header.  You can buy one premade,
    such as [this one from Sparkfun](https://www.sparkfun.com/products/10372),
    or make one yourself.
 1. Solder one wire to pin 3 of U22.
 1. Solder the other wire to pin 5 of U22.
-1. Plug the female connector into the rightmost pair of pins on the Personality Module's pin header.
-1. Route the wires neatly using tie wraps where possible.
+1. Plug the female connector into the rightmost pair of pins on the Personality Module's
+   pin header.  Route the wires neatly using tie wraps where possible.
 
 ## To remap the ROM, system RAM, and video to Fxxx (with one of the mods above)
 1. First, make sure the selected ROM image is compiled for Fxxx.  
