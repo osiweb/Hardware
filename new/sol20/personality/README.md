@@ -1,4 +1,4 @@
-# SOL-20 unversal peronality module
+# Sol-20 unversal peronality module
 
 ## Introduction
 
