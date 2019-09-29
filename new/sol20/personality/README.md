@@ -28,7 +28,7 @@ the pins (no current should flow through the network).
 1. Solder a jumper wire between pin 5 of U22 and pin B3 of J5.
 1. Reinstall the SOL-PC mainboard and reassemble.
 
-## Fxxx mapping modification - no mainboard jumpers (Use cable instead)
+## Fxxx mapping modification - no permanent mainboard modification (Use cable instead)
 1. Start with a 2-wire cable with 2-pin female socket header.  You can buy one premade,
    such as [this one from Sparkfun](https://www.sparkfun.com/products/10372),
    or make one yourself.
@@ -36,6 +36,10 @@ the pins (no current should flow through the network).
 1. Solder the other wire to pin 5 of U22.
 1. Plug the female connector into the rightmost pair of pins on the Personality Module's
    pin header.  Route the wires neatly using tie wraps where possible.
+   
+(Note: If you want to preserve the original chip, you can start with a new 74LS136 chip, place
+it in a fresh socket, and then solder the wires to the exposed portions of pins 3 and 5.  Then, you
+can transplant the chip to the motherboard.)
 
 ## To remap the ROM, system RAM, and video to Fxxx (with one of the mods above)
 1. First, make sure the selected ROM image is compiled for Fxxx.  
