@@ -22,27 +22,27 @@ is fine, and you can use any value at all, or even just solder a wire across all
 the pins (no current should flow through the network).
 1. JP1 - 2 x 8 pin 0.1" breakaway header.
 
-## Fxxx mapping modification - No flying wires (Requires mainboard removal, which is somwhat involved)
+## Fxxx mapping modification - No cable (Requires mainboard removal, which is somwhat involved)
 1. Remove the SOL-PC mainboard from the case.
 1. Solder a jumper wire between pin 3 of U22 and pin B2 of J5 (the personality module connector.)
 1. Solder a jumper wire between pin 5 of U22 and pin B3 of J5.
 1. Reinstall the SOL-PC mainboard and reassemble.
 
-## Fxxx mapping modification - no mainboard jumpers (Use flying wires instead)
+## Fxxx mapping modification - no mainboard jumpers (Use cable instead)
 1. With the personality module installed, estimate the length of wire you need
    to route neatly between pin 3 of U22 and the rightmost header pins (when the
    SOL is facing you, as if you are typing.)
-1. Cut 2 wires of the appropriate length (either twist them together, use a
-   twisted pair, or two wires from a ribbon cable.)
-1. Install a 2-pin socket at the end of the two wires (crimp pins + header casing)
+1. Start with a 2-wire cable with 2-pin female socket header.  You can buy one premade,
+   such as [this one from Sparkfun](https://www.sparkfun.com/products/10372),
+   or make one yourself.
 1. Solder one wire to pin 3 of U22.
 1. Solder the other wire to pin 5 of U22.
 1. Plug the female connector into the rightmost pair of pins on the Personality Module's pin header.
 1. Route the wires neatly using tie wraps where possible.
 
-## Fxxx remapping (with one of the mods above)
-1. To remap the ROM, system RAM, and video to Fxxx, make sure the selected ROM
-   image is compiled for Fxxx, place a jumper in the "Map Fxxx" position. 
+## To remap the ROM, system RAM, and video to Fxxx (with one of the mods above)
+1. First, make sure the selected ROM image is compiled for Fxxx.  
+1. Place a jumper in the "Map Fxxx" position. 
 1. To revert to Cxxx, make sure the selected image is compiled for Cxxx and
    remove the "Map Fxxx" jumper.
    
