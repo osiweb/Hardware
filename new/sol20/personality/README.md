@@ -55,10 +55,12 @@ can transplant the chip to the motherboard.)
    111, second at 110, third at 101, etc. Since that can all be handled in a
    script, that's not a bad way to go.
 1. For a 'C128, leave Sel3 open. For a 'C64, leave Sel 2 and Sel 3 open.
-1. For a 27C256, place a jumper at the 27C256 position. For 28C256, 27/28C128,
-   27/28C64, place a jumper at "~2̅7̅C̅2̅5̅6̅"
-
-1. The Resistor network values are not critical at all. The two networks also don't need to be the same.
+1. You need to jumper-select the EPROM type.  For a 27C256, place the jumper
+   at the 27C256 position. For 28C256, 27/28C128, 27/28C64, place the jumper
+   at "~2̅7̅C̅2̅5̅6̅"
+1. The Resistor network values are not critical at all. The two networks don't
+   need to be the same, or even have the same number of pins, as long as there
+   are at least 6 resistors, and pin 1 is the common pin.
 
 
 
