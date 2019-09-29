@@ -19,7 +19,7 @@ network in the 1K-20K range will be fine, as long as you place it on the board
 with pin 1 in the right spot.
 1. RN2 - SIP resistor network with common pin 1. Any 6, 7, or 8-resistor netork
 is fine, and you can use any value at all, or even just solder a wire across all
-the pins (no current should flow through the network).
+the pins (negligible current should flow through the network).
 1. JP1 - 2 x 8 pin 0.1" breakaway header.
 
 ## Fxxx mapping modification - No cable (Requires mainboard removal, which is somwhat involved)
