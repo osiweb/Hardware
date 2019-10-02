@@ -1,5 +1,4 @@
-EESchema Schematic File Version 4
-LIBS:personality-cache
+EESchema Schematic File Version 5
 EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
@@ -13,6 +12,11 @@ Comment1 ""
 Comment2 ""
 Comment3 ""
 Comment4 ""
+Comment5 ""
+Comment6 ""
+Comment7 ""
+Comment8 ""
+Comment9 ""
 $EndDescr
 $Comp
 L power:GND #PWR0101
@@ -282,13 +286,9 @@ Wire Wire Line
 Wire Wire Line
 	3000 5600 3200 5600
 Wire Wire Line
-	4000 1850 4000 2800
+	3900 1850 3900 2800
 Wire Wire Line
-	3900 1850 3900 2900
-Wire Wire Line
-	3800 1850 3800 3000
-Wire Wire Line
-	3700 1850 3700 2100
+	3800 1850 3800 2900
 Wire Wire Line
 	1750 2800 1750 2900
 $Comp
@@ -379,13 +379,13 @@ $EndComp
 NoConn ~ 7900 5350
 NoConn ~ 7900 4900
 NoConn ~ 7900 4450
-Text Label 3100 3100 0    50   ~ 0
+Text Label 2950 3100 0    50   ~ 0
 BKSEL_3
-Text Label 3100 3000 0    50   ~ 0
+Text Label 2950 3000 0    50   ~ 0
 BKSEL_2
-Text Label 3100 2900 0    50   ~ 0
+Text Label 2950 2900 0    50   ~ 0
 BKSEL_1
-Text Label 3100 2800 0    50   ~ 0
+Text Label 2950 2800 0    50   ~ 0
 BKSEL_0
 Wire Wire Line
 	4500 3400 4500 2700
@@ -689,22 +689,11 @@ Wire Wire Line
 Wire Wire Line
 	2950 3400 3000 3400
 Wire Wire Line
-	2950 3100 3700 3100
+	2950 2900 3800 2900
 Wire Wire Line
-	2950 3000 3800 3000
-Wire Wire Line
-	2950 2900 3900 2900
-Wire Wire Line
-	2950 2800 4000 2800
-Connection ~ 4000 2800
-Wire Wire Line
-	4000 2800 5450 2800
-Connection ~ 3900 2900
-Wire Wire Line
-	3900 2900 5450 2900
-Connection ~ 3800 3000
-Wire Wire Line
-	3800 3000 5450 3000
+	2950 2800 3900 2800
+Connection ~ 3900 2800
+Connection ~ 3800 2900
 Wire Wire Line
 	2350 3300 2050 3300
 Wire Wire Line
@@ -713,18 +702,11 @@ Connection ~ 1750 3100
 Wire Wire Line
 	1750 3100 2350 3100
 Wire Wire Line
-	3700 2100 2050 2100
-Wire Wire Line
 	2050 2100 2050 3200
-Connection ~ 3700 2100
-Wire Wire Line
-	3700 2100 3700 3100
 Wire Wire Line
 	2950 3200 3600 3200
 Wire Wire Line
-	3950 3200 3950 3100
-Wire Wire Line
-	3950 3100 5450 3100
+	4350 3200 4350 3100
 Wire Wire Line
 	1750 3100 1750 3325
 Wire Wire Line
@@ -741,7 +723,7 @@ Wire Wire Line
 	3600 1850 3600 3200
 Connection ~ 3600 3200
 Wire Wire Line
-	3600 3200 3950 3200
+	3600 3200 4350 3200
 Wire Wire Line
 	1300 4100 3000 4100
 Wire Wire Line
@@ -759,22 +741,11 @@ Connection ~ 3000 3500
 Wire Wire Line
 	3000 3500 3000 4100
 $Comp
-L Device:R_Network08_US RN1
-U 1 1 5D8ED22E
-P 3900 1650
-F 0 "RN1" H 3650 1850 50  0000 L CNN
-F 1 "10K" H 3900 1850 50  0000 L CNN
-F 2 "Resistor_THT:R_Array_SIP9" V 4375 1650 50  0001 C CNN
-F 3 "http://www.vishay.com/docs/31509/csc.pdf" H 3900 1650 50  0001 C CNN
-	1    3900 1650
-	1    0    0    -1  
-$EndComp
-$Comp
 L Device:R_Network08_US RN2
 U 1 1 5D8F09A4
 P 6650 5750
 F 0 "RN2" H 6170 5704 50  0000 R CNN
-F 1 "R_Network08_US" H 6170 5795 50  0000 R CNN
+F 1 "10K" H 6170 5795 50  0000 R CNN
 F 2 "Resistor_THT:R_Array_SIP9" V 7125 5750 50  0001 C CNN
 F 3 "http://www.vishay.com/docs/31509/csc.pdf" H 6650 5750 50  0001 C CNN
 	1    6650 5750
@@ -819,4 +790,34 @@ F 3 "" H 7050 6050 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	7050 6050 7050 5950
+Wire Wire Line
+	4350 3100 5450 3100
+Wire Wire Line
+	3400 2100 3400 3100
+Wire Wire Line
+	3400 2100 2050 2100
+Wire Wire Line
+	2950 3100 3400 3100
+Wire Wire Line
+	2950 3000 3700 3000
+Wire Wire Line
+	3700 1850 3700 3000
+Connection ~ 3700 3000
+Wire Wire Line
+	3700 3000 5450 3000
+$Comp
+L Device:R_Network08_US RN1
+U 1 1 5D8ED22E
+P 3900 1650
+F 0 "RN1" H 3650 1850 50  0000 L CNN
+F 1 "10K" H 3900 1850 50  0000 L CNN
+F 2 "Resistor_THT:R_Array_SIP9" V 4375 1650 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/31509/csc.pdf" H 3900 1650 50  0001 C CNN
+	1    3900 1650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3900 2800 5450 2800
+Wire Wire Line
+	3800 2900 5450 2900
 $EndSCHEMATC
