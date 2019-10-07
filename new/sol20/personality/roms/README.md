@@ -1,6 +1,9 @@
-ROM images for Universal Personality Module
+# ROM images for Universal Personality Module
 
-Several of the ROM images come from Jim Battle's SOL20.org website,
+This directory contains 8K, 16K, and 32K ROM images for the Universal Personality Module, combining multiple individual 2K ROM images.
+
+## Assembly Sources
+The assembly source for many of the images comes from Jim Battle's SOL20.org website,
 
 https://www.sol20.org/personality.html
 
@@ -10,11 +13,11 @@ dpmonf.asm is a copy of dpmon.asm, with the start address set to F000h.
 Please see Jim's excellent website for details on these personality module
 images.
 
-The solos_cpm from Mike Douglas' Derramp.com website:
+The solos_cpm.asm source file was taken from Mike Douglas' Derramp.com website:
 
 https://deramp.com/processor_tech.html
 
-This file is named "solos13c" on the deramp.com website, and corresponds to the
+This file is named "solos13c.asm" on the deramp.com website, and corresponds to the
 solos_cpm ROM file distributed with the SOLACE emulator. From the README file on
 deramp.com, solos13c is solos 1.3 patched to jump to the NorthStar controller
 boot ROM, and to not erase the CP/M command line when RETURN is hit at the end
@@ -27,7 +30,7 @@ allowing you to rearrange the images an any order you desire. Simply edit the
 IMAGES_8K, IMAGES_16K, and IMAGES_32K variables in the makefile to rearrange the
 images.
 
-Building ROM images and Hex files:
+## Building ROM images and Hex files:
 
 To build the ROM imgaes, simply type "make". This will produce 8K, 16K, and 32K
 binary and hex files.
@@ -40,29 +43,29 @@ To build 16K or 32K hex or binary ROM files, the instructions are the same, but
 use "16k" or "32k" instead of "8k"
 
 
-To add a ROM to the build:
+## Adding a ROM to the build:
 
-1) Place the CP/M assembler format source file in this directory.
+1. Place the CP/M assembler format source file in this directory.
 
-2) Add the ROM to the IMAAGES_8K, IMAGES_16K, and/or IMAGES_32K file list as
+1. Add the ROM to the IMAAGES_8K, IMAGES_16K, and/or IMAGES_32K file list as
    desired. Note that the 8K ROM can hold 4 images; the 16K ROM can hold 8
    images, and the 32K ROM can hold 16 images.
 
-3) build the desired image by typing "make" with appropriate arguments, as described above.
+1. build the desired image by typing "make" with appropriate arguments, as described above.
 
 
 
-Prerequisites
+## Prerequisites / Tools
 
 Creating the ROMs using the provided makefile requires a POSIX environment
 (Linux, Unix, MacOS, cygwin, msys2, etc.) and the following tools:
 
-1) A85 Assembler. (http://www.retrotechnology.com/restore/a85.html) This is a
+1. A85 Assembler. (http://www.retrotechnology.com/restore/a85.html) This is a
    bare-bones cross assembler that supports the CP/M format. In particular, you
    need Herb Johnson's modified version supporting 8080 instructions. The link
    poinst to Herb Johnson's version at his website.
    
-2) srecord. (http://srecord.sourceforge.net/) This is a versatile tool for
+1. srecord. (http://srecord.sourceforge.net/) This is a versatile tool for
    transforming files between various formats including binary, intel hex, and
    others. I used this tool rather than the many bin2hex, hex2bin, etc. floating
    around because it is easy to find and very flexible.
