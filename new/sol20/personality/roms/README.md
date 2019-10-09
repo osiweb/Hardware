@@ -65,6 +65,16 @@ Creating the ROMs using the provided makefile requires a POSIX environment
    need Herb Johnson's modified version supporting 8080 instructions. The link
    poinst to Herb Johnson's version at his website.
    
+   NOTE: There is a difference between A85 and the CP/M 8080 assembler. The CP/M
+   assembler maps a string "AB" to memory in order, with 41h at the low byte and
+   42h at the high byte. A85 interprets the string as 4142h, then maps to memory
+   in little-endian order, so 42h is the low byte and 41h is the high byte.
+
+   In order to correctly assemble the source for the Processor Technology
+   derived personalities (consol, solos, cuter), the command string definitions
+   were edited to use "DB" instead of "DW". DPMON uses DB do define the command
+   strings, so is inaffected by the difference in treatment.g
+   
 1. srecord. (http://srecord.sourceforge.net/) This is a versatile tool for
    transforming files between various formats including binary, intel hex, and
    others. I used this tool rather than the many bin2hex, hex2bin, etc. floating
