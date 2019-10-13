@@ -1,4 +1,4 @@
-# Sol 20 Wood sides
+# Sol-20 Wood sides
 
 This directory contains design files for replacement wood sides for the SOL-20
 
