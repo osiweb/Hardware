@@ -6,7 +6,7 @@ The Sol-20 is distinctive for its blue painted case and beautiful walnut sides.
 Unfortunately, after 40+ years, the wood sides may have become damaged due to
 normal wear, accidents or rough handling, or suboptimal storage conditions. In
 some cases, the wood sides may be too damaged to reasonably repair. That was the
-case for my Sol, which fell 8 feet onto a concrete floor when a shelf collapsed.
+case for my Sol, which fell 8 feet onto a concrete floor when a shelf failed.
 
 I have recreated the sides by making careful measurements from the original
 sides, and share the results here for anyone who wants to try to make their own
