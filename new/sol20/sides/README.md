@@ -61,21 +61,19 @@ both parts. I prefer decent quality baltic birch.
 
 ## construction:
 
-For CNC:
+### For CNC:
 
 Walnut:
 - Use the CNC to cut out the walnut pieces.
 - Use a trim router with a 1/4" roundover router bit to round off the edges on both sides.
 - shape the edges until round and smooth by sanding
 - sand both sides of each piece with progressively finer paper (120-180-220) until smooth.
-
 Inner (plywood or masonite):
 - Use the CNC to cut out the walnut and inner (plywood or masonite) pieces.
 - Sand the edges until smooth, and sand the faces with 220-grid sandpaper until smooth.
 - paint both the inner pieces with a matte flat black paint.
-- 
 
-No CNC, but you have access to a laser cutter:
+### No CNC, but you have access to a laser cutter:
 - Cut out templates for the inner and outer pieces from acrylic or other sturdy template material.
 - Trace an outline on the plywood/masonite from the inner template, and on the
   walnut from the outer template.
@@ -83,28 +81,23 @@ No CNC, but you have access to a laser cutter:
   a 1/4" flush trim bit to transfer the pattern from the template to the wood.
 - Continue as for the CNC.
 
-No CNC or laser cutter, but can print the patterns.
+### No CNC or laser cutter, but can print the patterns.
 
--- Please let me know if you have better method
+Please let me know if you have better method
 
 - Print the patterns. For the walnut pattern, include a superimposed inner
   pattern (using screw holes and insert holes to align).
-
 - Then, using a sharp pencil, transfer the outlines to the wood by poking the
 pencil through the paper onto the wood (use the back side of the wood). Then
 using a straight edge, recreate the pattern, filling in the curves by hand. Cut
 the wood using whatever tools are appropriate and available (miter saw, table
 saw, band saw), and sand to shape. Use the first side as a template for the
 second side, transferring the pattern using a trim router with flush bit.
-
 - align the template with bother inner and outer outlines over the walnut. Then,
   using the template, align the inner piece to the outer piece. Clamp the pieces
   together.
-  
 - Using the template for the inner piece, drill 1/8" screw holes and 17/64"
-  insert holes to the appropriate depth (about 1/2").
-  
+  insert holes to the appropriate depth (about 1/2").  
 - Unclamp the pieces, and set aside the walnut. Using a 1/2" bit, drill the
   bolt-head cutouts in the inner piece.
-  
 - continue as for CNC cut pieces.
