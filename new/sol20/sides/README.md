@@ -104,9 +104,21 @@ second side, transferring the pattern using a trim router with flush bit.
   bolt-head cutouts in the inner piece.
 - continue as for CNC cut pieces.
 
+## Images:
+
+Routing the edges of the walnut with a 1/4" roundover bit:
 <img alt="Left Oblique" src="pictures/routing.jpg">
+
+Both sides after routing, before sanding:
 <img alt="Left Oblique" src="pictures/routed.jpg">
+
+Sanding in progress:
 <img alt="Left Oblique" src="pictures/sanding.jpg">
+
+Comparing the inner piece to the original:
 <img alt="Left Oblique" src="pictures/inner.jpg">
+
+Final result:
+
 <img alt="Left Oblique" src="pictures/right_oblique.jpg">
 <img alt="Left Oblique" src="pictures/left_oblique.jpg">
