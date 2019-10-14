@@ -118,7 +118,7 @@ Both sides after routing, before sanding:
 Sanding in progress:
 <img alt="Left Oblique" src="pictures/sanding.jpg">
 
-Comparison between original and recreated sides
+Comparison between original and recreated sides (new sides in center)
 <img alt="Left Oblique" src="pictures/comparison.jpg">
 
 Final result:
