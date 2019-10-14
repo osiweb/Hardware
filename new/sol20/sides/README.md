@@ -92,16 +92,17 @@ Please let me know if you have better method
 
 - Print the patterns. For the walnut pattern, include a superimposed inner
   pattern (using screw holes and insert holes to align).
-- Then, using a sharp pencil, transfer the outlines to the wood by poking the
-pencil through the paper onto the wood (use the back side of the wood). Then
-using a straight edge, recreate the pattern, filling in the curves by hand. Cut
-the wood using whatever tools are appropriate and available (miter saw, table
-saw, band saw), and sand to shape. Use the first side as a template for the
-second side, transferring the pattern using a trim router with flush bit.
-- align the template with bother inner and outer outlines over the walnut. Then,
-  using the template, align the inner piece to the outer piece. Clamp the pieces
+- Using a sharp pencil, transfer the outlines to the wood by poking the
+  pencil through the paper onto the wood (use the back side of the wood). 
+- Then using a straight edge, recreate the pattern, filling in the curves by hand. 
+- Cut the wood using whatever tools are appropriate and available (miter saw, table
+  saw, band saw), and sand to shape. Use the first side as a template for the
+  second side, transferring the pattern using a trim router with flush cut bit.
+- align the template with bother inner and outer outlines over the walnut. 
+- Using the template, align the inner piece to the outer piece. Drill two pilot
+  holes that are 1/8" diameter and 1/2" deep, and temporarily screws the two pieces
   together.
-- Using the template for the inner piece, drill 1/8" screw holes and 17/64"
+- Using the template for the inner piece, drill the 1/8" screw holes and 17/64"
   insert holes to the appropriate depth (about 1/2").  
 - Unclamp the pieces, and set aside the walnut. Using a 1/2" bit, drill the
   bolt-head cutouts in the inner piece.
