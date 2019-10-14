@@ -1,4 +1,4 @@
-![alt text] (pictures/left_oblique.jpg)
+<img alt="Left Oblique" src="pictures/left_oblique.jpg">
 
 # Sol-20 Wood sides
 
