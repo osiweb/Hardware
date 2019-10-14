@@ -70,6 +70,9 @@ Walnut:
 - Use a trim router with a 1/4" roundover router bit to round off the edges on both sides.
 - shape the edges until round and smooth by sanding
 - sand both sides of each piece with progressively finer paper (120-180-220) until smooth.
+- Finish as desired.  Panels with the original Sol kits were not finished, and the builder
+  was instructed to finish them as desired.  Later kits came with pre-finished walnut.
+  
 Inner (plywood or masonite):
 - Use the CNC to cut out the walnut and inner (plywood or masonite) pieces.
 - Sand the edges until smooth, and sand the faces with 220-grid sandpaper until smooth.
