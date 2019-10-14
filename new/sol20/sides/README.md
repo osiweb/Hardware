@@ -103,3 +103,10 @@ second side, transferring the pattern using a trim router with flush bit.
 - Unclamp the pieces, and set aside the walnut. Using a 1/2" bit, drill the
   bolt-head cutouts in the inner piece.
 - continue as for CNC cut pieces.
+
+<img alt="Left Oblique" src="pictures/routing.jpg">
+<img alt="Left Oblique" src="pictures/routed.jpg">
+<img alt="Left Oblique" src="pictures/sanding.jpg">
+<img alt="Left Oblique" src="pictures/inner.jpg">
+<img alt="Left Oblique" src="pictures/right_oblique.jpg">
+<img alt="Left Oblique" src="pictures/left_oblique.jpg">
