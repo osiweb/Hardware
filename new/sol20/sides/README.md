@@ -111,7 +111,7 @@ Please let me know if you have better method
 ## Images:
 
 ### Note:
-I had to adjust the position of several holes after the walnut was already cut, so some of the pockets in the walnut don't look neat here.  However, the positions of all the pockets and holes in the design files are correct.
+I had to adjust the position of several holes after the walnut was already cut, so some of the pockets in the walnut don't look neat here.  However, the positions of all the pockets and holes in the final design files are correct.
 
 Routing the edges of the walnut with a 1/4" roundover bit:
 <img alt="Left Oblique" src="pictures/routing.jpg">
