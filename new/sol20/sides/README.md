@@ -20,7 +20,7 @@ contain all the information required to reproduce the sides.
 
 There is a 1-inch square in the file, in case you need to adjust the scale.
 
-The files contain outlines for the walnut sides, as well as the melamine inner
+The files contain outlines for the walnut sides, as well as the masonite inner
 part of each side. 
 
 There are multiple layers for each element:
