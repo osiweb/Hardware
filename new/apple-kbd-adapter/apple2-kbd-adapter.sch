@@ -1,12 +1,12 @@
 EESchema Schematic File Version 4
-EELAYER 29 0
+EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
-Title ""
-Date ""
-Rev ""
+Title "Apple 2 keyboard to Apple 1 adapter"
+Date "2020-03-03"
+Rev "1.1"
 Comp ""
 Comment1 ""
 Comment2 ""
@@ -36,11 +36,7 @@ F 3 "~" H 6500 4400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Entry Wire Line
-	5650 5200 5550 5100
-Entry Wire Line
 	5650 5100 5550 5000
-Entry Wire Line
-	5650 5000 5550 4900
 Entry Wire Line
 	5650 4900 5550 4800
 Entry Wire Line
@@ -50,8 +46,6 @@ Entry Wire Line
 Entry Wire Line
 	5650 4600 5550 4500
 Entry Wire Line
-	5650 4500 5550 4400
-Entry Wire Line
 	5650 4400 5550 4300
 Entry Wire Line
 	5650 4300 5550 4200
@@ -59,8 +53,6 @@ Entry Wire Line
 	5650 4200 5550 4100
 Entry Wire Line
 	5650 4100 5550 4000
-Entry Wire Line
-	5650 4000 5550 3900
 Entry Wire Line
 	5650 3900 5550 3800
 Entry Wire Line
@@ -74,8 +66,6 @@ Wire Wire Line
 Wire Wire Line
 	5650 3900 6300 3900
 Wire Wire Line
-	6300 4000 5650 4000
-Wire Wire Line
 	5650 4100 6300 4100
 Wire Wire Line
 	6300 4200 5650 4200
@@ -83,8 +73,6 @@ Wire Wire Line
 	5650 4300 6300 4300
 Wire Wire Line
 	6300 4400 5650 4400
-Wire Wire Line
-	5650 4500 6300 4500
 Wire Wire Line
 	6300 4600 5650 4600
 Wire Wire Line
@@ -94,11 +82,7 @@ Wire Wire Line
 Wire Wire Line
 	5650 4900 6300 4900
 Wire Wire Line
-	6300 5000 5650 5000
-Wire Wire Line
 	5650 5100 6300 5100
-Wire Wire Line
-	6300 5200 5650 5200
 Text Label 3000 4500 0    50   ~ 0
 GND
 Text Label 5700 4400 0    50   ~ 0
@@ -107,8 +91,6 @@ Text Label 5700 3700 0    50   ~ 0
 +5V
 Text Label 3000 5100 0    50   ~ 0
 D8
-Text Label 3000 4600 0    50   ~ 0
-+12V
 Text Label 3000 4700 0    50   ~ 0
 -12V
 Text Label 2950 3700 0    50   ~ 0
@@ -134,11 +116,7 @@ Wire Wire Line
 Wire Wire Line
 	2950 5000 3500 5000
 Wire Wire Line
-	3500 4900 2950 4900
-Wire Wire Line
 	2950 4800 3500 4800
-Wire Wire Line
-	2950 4600 3500 4600
 Wire Wire Line
 	2950 4500 3500 4500
 Wire Wire Line
@@ -176,13 +154,9 @@ Entry Wire Line
 Entry Wire Line
 	3500 4500 3600 4400
 Entry Wire Line
-	3500 4600 3600 4500
-Entry Wire Line
 	3500 4700 3600 4600
 Entry Wire Line
 	3500 4800 3600 4700
-Entry Wire Line
-	3500 4900 3600 4800
 Entry Wire Line
 	3500 5000 3600 4900
 Entry Wire Line
@@ -244,9 +218,9 @@ Wire Wire Line
 Wire Wire Line
 	3750 3450 3750 3150
 Text Label 3900 3250 0    50   ~ 0
-GND
-Text Label 3900 3150 0    50   ~ 0
 ~RESET
+Text Label 3900 3150 0    50   ~ 0
+GND
 Entry Wire Line
 	4650 3550 4750 3450
 Entry Wire Line
@@ -312,7 +286,7 @@ L Device:R_US R1
 U 1 1 5D457F82
 P 3200 5400
 F 0 "R1" V 3300 5300 50  0000 C CNN
-F 1 "10K" V 3300 5500 50  0000 C CNN
+F 1 "3.3k" V 3300 5500 50  0000 C CNN
 F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 3240 5390 50  0001 C CNN
 F 3 "~" H 3200 5400 50  0001 C CNN
 	1    3200 5400
@@ -339,21 +313,25 @@ Wire Wire Line
 Text Label 4900 3250 0    50   ~ 0
 ~CLRSCR
 Text Label 4900 3150 0    50   ~ 0
-GND
++5V
 Text Label 3000 5200 0    50   ~ 0
 +5V
 Text Notes 7075 6875 0    118  ~ 0
 Apple 2 Keyboard to Apple 1 adapter\n
 Text Notes 7300 7250 0    59   ~ 0
 1 1
-Text Notes 7350 7500 0    71   ~ 0
-Apple 2 Keyboard to Apple 1 adapter  Rev 1\n
-Text Notes 8125 7650 0    71   ~ 0
-7/30/2019
+NoConn ~ 2950 4900
+NoConn ~ 6300 4000
+NoConn ~ 6300 4500
+NoConn ~ 6300 5000
+NoConn ~ 6300 5200
+NoConn ~ 2950 4600
+NoConn ~ 6900 4305
+NoConn ~ 2755 3030
 Wire Bus Line
 	3600 3550 5550 3550
 Wire Bus Line
-	3600 3550 3600 5100
+	5550 3550 5550 5000
 Wire Bus Line
-	5550 3550 5550 5100
+	3600 3550 3600 5100
 $EndSCHEMATC
