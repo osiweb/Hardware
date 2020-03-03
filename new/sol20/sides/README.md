@@ -98,7 +98,7 @@ Please let me know if you have better method
 - Cut the wood using whatever tools are appropriate and available (miter saw, table
   saw, band saw), and sand to shape. Use the first side as a template for the
   second side, transferring the pattern using a trim router with flush cut bit.
-- align the template with bother inner and outer outlines over the walnut. 
+- align the template with both inner and outer outlines over the walnut. 
 - Using the template, align the inner piece to the outer piece. Drill two pilot
   holes that are 1/8" diameter and 1/2" deep, and temporarily screws the two pieces
   together.
