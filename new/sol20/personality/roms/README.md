@@ -32,7 +32,7 @@ images.
 
 ## Building ROM images and Hex files:
 
-To build the ROM imgaes, simply type "make". This will produce 8K, 16K, and 32K
+To build the ROM images, simply type "make". This will produce 8K, 16K, and 32K
 binary and hex files.
 
 To build the 8K image hex file, type "make personality_8k.hex".
