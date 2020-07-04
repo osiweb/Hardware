@@ -11,6 +11,8 @@ This is a "Universal" personality module for the SOL-20.  It's features include:
   modifications to other personality modules to be used with the modified
   mainboard, unlike the modification described in the Micro Complex manual.
 
+<img alt="Assembly Rendering" src="images/personality-rendering.png" height=50% width=50%>
+
 ## Parts
 1. U1 - 74LS08
 1. U2 - 27C256/28C256/27C128/28C128/27C64/28C64, or compatible parts.
