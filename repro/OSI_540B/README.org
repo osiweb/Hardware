@@ -1,0 +1,19 @@
+* OSI 540B reproduction
+
+This directory contains a reproduction of the OSI 540B B&W / Color video board.
+
+The 540 board was the video board for C4/C8 computer systems.  The earlier C2-4P and C2-8P
+systems used the 540 board, which was monochrome only, but otherwise almost identical.
+
+** Contents
+*** Top directory
+**** Altium design files for the reproduction. These are the result of importing the scanned Gerbers
+into Altium and cleaning up the PCBs.
+
+**** Jeff Ferguson's Invaluable Build guide and log, which includes a BOM. (Microsoft xlsx format)
+
+*** scans
+The original scans, as PDF images, and the resulting converted gerbers.
+
+*** production-package
+The gerbers generated from the PCB design files
