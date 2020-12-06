@@ -7,10 +7,11 @@ to fully compatible disk systems by adding a 470 disk controller.
 
 ** Contents
 *** Top directory
-**** Altium design files for the reproduction. These are the result of importing the scanned Gerbers
-into Altium and cleaning up the PCBs.
+**** Altium design files for the reproduction. 
+These are the result of importing the scanned Gerbers into Altium and cleaning up the PCBs.
 
-**** Jeff Ferguson's Invaluable Build guide, which includes a BOM.
+**** Build Guide
+Jeff Ferguson's Invaluable Build guide, which includes a BOM.
 
 *** scans
 The original scans, as PDF images, and the resulting converted gerbers.
