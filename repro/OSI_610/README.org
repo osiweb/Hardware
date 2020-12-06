@@ -1,0 +1,13 @@
+* OSI 610 reproduction by Klyball
+
+This directory contains Klyball's reproduction of the OSI 610 Disk/RAM board
+
+The 610 board was an extension for the 600 single-board computer, adding RAM and a disk interface.
+
+** Contents
+*** Top directory
+**** ZIP file containing the Gerbers for Klyball's 600D board (Cherry MX version)
+**** Build Guide
+Jeff Ferguson's Parts list, in xlsx format
+
+
