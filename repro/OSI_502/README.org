@@ -1,0 +1,19 @@
+* OSI 502 reproduction
+
+This directory contains a reproduction of the OSI 502 6502 CPU board.
+
+The 502 board was the default board for C2/C4/C8 cassette-based systems, although 502-based systems were often upgraded
+to fully compatible disk systems by adding a 470 disk controller.
+
+** Contents
+*** Top directory
+**** Altium design files for the reproduction. These are the result of importing the scanned Gerbers
+into Altium and cleaning up the PCBs.
+
+**** Jeff Ferguson's Invaluable Build guide, which includes a BOM.
+
+*** scans
+The original scans, as PDF images, and the resulting converted gerbers.
+
+*** production-package
+The gerbers generated from the PCB design files
