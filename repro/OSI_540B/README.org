@@ -7,13 +7,15 @@ systems used the 540 board, which was monochrome only, but otherwise almost iden
 
 ** Contents
 *** Top directory
-**** Altium design files for the reproduction. These are the result of importing the scanned Gerbers
+**** PCB Design files
+Altium design files for the reproduction. These are the result of importing the scanned Gerbers
 into Altium and cleaning up the PCBs.
 
-**** Jeff Ferguson's Invaluable Build guide and log, which includes a BOM. (Microsoft xlsx format)
+**** Build Guide
+Jeff Ferguson's Invaluable Build guide and log, which includes a BOM. (Microsoft xlsx format)
 
-*** scans
+** scans
 The original scans, as PDF images, and the resulting converted gerbers.
 
-*** production-package
+** production-package
 The gerbers generated from the PCB design files
