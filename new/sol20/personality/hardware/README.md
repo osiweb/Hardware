@@ -17,20 +17,14 @@ This is a "Universal" personality module for the SOL-20.  It's features include:
 1. U1 - 74LS08
 1. U2 - 27C256/28C256/27C128/28C128/27C64/28C64, or compatible parts.
 1. RN1 - SIP resistor network with common pin 1. Any 6-, 7-, or 8 resistor
-network in the 1K-20K range will be fine, as long as you place it on the board
+network in the 3.3K-10K range will be fine, as long as you place it on the board
 with pin 1 in the right spot.
-1. RN2 - SIP resistor network with common pin 1. Any 6, 7, or 8-resistor netork
+1. RN2 - SIP resistor network with common pin 1. Can use the same part as RN1.  Any value in the 1K-20K range will work.  Minimal current through this network.
 is fine, and you can use any value at all, or even just solder a wire across all
 the pins (negligible current should flow through the network).
 1. JP1 - 2 x 8 pin 0.1" breakaway header.
 
-## Fxxx mapping modification - No cable (Requires mainboard removal, which is somwhat involved)
-1. Remove the SOL-PC mainboard from the case.
-1. Solder a jumper wire between pin 3 of U22 and pin B2 of J5 (the personality module connector.)
-1. Solder a jumper wire between pin 5 of U22 and pin B3 of J5.
-1. Reinstall the SOL-PC mainboard and reassemble.
-
-## Fxxx mapping modification - no permanent mainboard modification (Use cable instead)
+## Fxxx mapping modification - no permanent mainboard modification (Use cable instead) (RECOMMENDED.  TESTED AND CONFIRMED)
 1. Start with a 2-wire cable with 2-pin female socket header.  You can buy one premade,
    such as [this one from Sparkfun](https://www.sparkfun.com/products/10372),
    or make one yourself.
@@ -42,6 +36,13 @@ the pins (negligible current should flow through the network).
 (Note: If you want to preserve the original chip, you can start with a new 74LS136 chip, place
 it in a fresh socket, and then solder the wires to the exposed portions of pins 3 and 5.  Then, you
 can transplant the chip to the motherboard.)
+
+
+## Fxxx mapping modification - No cable (Requires mainboard removal, which is somwhat involved) (NOT RECOMMENDED -- THIS IS NOT TESTED, AND NEEDS TO BE REVIEWED)
+1. Remove the SOL-PC mainboard from the case.
+1. Solder a jumper wire between pin 3 of U22 and pin B2 of J5 (the personality module connector.)
+1. Solder a jumper wire between pin 5 of U22 and pin B3 of J5.
+1. Reinstall the SOL-PC mainboard and reassemble.
 
 ## To remap the ROM, system RAM, and video to Fxxx (with one of the mods above)
 1. First, make sure the selected ROM image is compiled for Fxxx.  
