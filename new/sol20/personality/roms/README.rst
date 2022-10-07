@@ -1,8 +1,12 @@
-# ROM images for Universal Personality Module
+===========================================
+ROM images for Universal Personality Module
+===========================================
 
 This directory contains 8K, 16K, and 32K ROM images for the Universal Personality Module, combining multiple individual 2K ROM images.
 
-## Assembly Sources
+Assembly Sources
+================
+
 The assembly source for many of the images comes from Jim Battle's SOL20.org website,
 
 https://www.sol20.org/personality.html
@@ -13,7 +17,7 @@ dpmonf.asm is a copy of dpmon.asm, with the start address set to F000h.
 Please see Jim's excellent website for details on these personality module
 images.
 
-The solos_cpm.asm source file was taken from Mike Douglas' Derramp.com website:
+The solos_cpm.asm source file was taken from Mike Douglas' Deramp.com website:
 
 https://deramp.com/processor_tech.html
 
@@ -30,7 +34,62 @@ allowing you to rearrange the images an any order you desire. Simply edit the
 IMAGES_8K, IMAGES_16K, and IMAGES_32K variables in the makefile to rearrange the
 images.
 
-## Building ROM images and Hex files:
+What's in the ROM images
+========================
+
+
+8K ROM (e.g., 2764)
+-------------------
+
+Position Image
+-------- -----
+0        Bootload (Solos variant with "TERM" command replaced with "BOOT" for Helios II)
+1        Solos (Most common version)
+2        Solos (Patched for compatibility with CPM line input)
+3        DPMON (Micro Complex Dual Personality Monitor, compiled for Cxxx)
+
+
+16K ROM (e.g., 27128)
+---------------------
+
+Position Image
+-------- -----
+0        Bootload (Solos variant with "TERM" command replaced with "BOOT" for Helios II)
+1        Solos (Most common version)
+2        Solos (Patched for compatibility with CPM line input)
+3        DPMON (Micro Complex Dual Personality Monitor, compiled for Cxxx)
+4        DPMON (Micro Complex Dual Personality Monitor, compiled for Fxxx)
+5        Consol (Stripped down Solos)
+6        Solos (Alternate 1)
+7        Solos (Alternate 2)
+
+
+16K ROM (e.g., 27256)
+---------------------
+
+This version just duplicates the first 8 images in the second 8 slots.
+
+Position Image
+-------- -----
+0        Bootload (Solos variant with "TERM" command replaced with "BOOT" for Helios II)
+1        Solos (Most common version)
+2        Solos (Patched for compatibility with CPM line input)
+3        DPMON (Micro Complex Dual Personality Monitor, compiled for Cxxx)
+4        DPMON (Micro Complex Dual Personality Monitor, compiled for Fxxx)
+5        Consol (Stripped down Solos)
+6        Solos (Alternate 1)
+7        Solos (Alternate 2)
+8        Bootload (Solos variant with "TERM" command replaced with "BOOT" for Helios II)
+9        Solos (Most common version)
+10       Solos (Patched for compatibility with CPM line input)
+11       DPMON (Micro Complex Dual Personality Monitor, compiled for Cxxx)
+12       DPMON (Micro Complex Dual Personality Monitor, compiled for Fxxx)
+13       Consol (Stripped down Solos)
+14       Solos (Alternate 1)
+15       Solos (Alternate 2)
+
+Building ROM images and Hex files
+=================================
 
 To build the ROM images, simply type "make". This will produce 8K, 16K, and 32K
 binary and hex files.
@@ -43,7 +102,8 @@ To build 16K or 32K hex or binary ROM files, the instructions are the same, but
 use "16k" or "32k" instead of "8k"
 
 
-## Adding a ROM to the build:
+Adding a ROM to the build
+=========================
 
 1. Place the CP/M assembler format source file in this directory.
 
@@ -55,7 +115,8 @@ use "16k" or "32k" instead of "8k"
 
 
 
-## Prerequisites / Tools
+Prerequisites / Tools
+=====================
 
 Creating the ROMs using the provided makefile requires a POSIX environment
 (Linux, Unix, MacOS, cygwin, msys2, etc.) and the following tools:
