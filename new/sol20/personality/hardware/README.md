@@ -34,7 +34,7 @@ This is a "Universal" personality module for the SOL-20.  It's features include:
 
 1. JP1 - 2 x 8 pin 0.1" breakaway header.
 
-## Fxxx mapping modification - no permanent mainboard modification (Use cable instead) 
+## Fxxx mapping modification - no mainboard modification
 
 1. You may want to order a spare DIP 74LS136 chip. This is the quad
    open-collector XOR gate at U22. Not only will this let you preserve the
