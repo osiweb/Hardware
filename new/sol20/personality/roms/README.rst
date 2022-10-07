@@ -41,19 +41,22 @@ What's in the ROM images
 8K ROM (e.g., 2764)
 -------------------
 
+======== =====
 Position Image
--------- -----
+======== =====
 0        Bootload (Solos variant with "TERM" command replaced with "BOOT" for Helios II)
 1        Solos (Most common version)
 2        Solos (Patched for compatibility with CPM line input)
 3        DPMON (Micro Complex Dual Personality Monitor, compiled for Cxxx)
+======== =====
 
 
 16K ROM (e.g., 27128)
 ---------------------
 
+======== =====
 Position Image
--------- -----
+======== =====
 0        Bootload (Solos variant with "TERM" command replaced with "BOOT" for Helios II)
 1        Solos (Most common version)
 2        Solos (Patched for compatibility with CPM line input)
@@ -62,15 +65,17 @@ Position Image
 5        Consol (Stripped down Solos)
 6        Solos (Alternate 1)
 7        Solos (Alternate 2)
+======== =====
 
 
-16K ROM (e.g., 27256)
+32K ROM (e.g., 27256)
 ---------------------
 
 This version just duplicates the first 8 images in the second 8 slots.
 
+======== =====
 Position Image
--------- -----
+======== =====
 0        Bootload (Solos variant with "TERM" command replaced with "BOOT" for Helios II)
 1        Solos (Most common version)
 2        Solos (Patched for compatibility with CPM line input)
@@ -87,6 +92,7 @@ Position Image
 13       Consol (Stripped down Solos)
 14       Solos (Alternate 1)
 15       Solos (Alternate 2)
+======== =====
 
 Building ROM images and Hex files
 =================================
