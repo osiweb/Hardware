@@ -5,6 +5,13 @@
   )
 
   (paper "A4")
+  (title_block
+    (title "SOL-20 Universal Personality Module")
+    (date "2022-10-11")
+    (rev "3")
+    (company "OSIWeb.org")
+  )
+
   (layers
     (0 "F.Cu" signal)
     (31 "B.Cu" signal)
@@ -656,7 +663,7 @@
       (xy 115.316 140.97)
       (xy 119.126 140.97)
     ) (layer "Edge.Cuts") (width 0.05) (fill none) (tstamp f5efd156-7aaa-4fef-a2df-0cf19823290f))
-  (gr_text "Rev 2\n" (at 116.84 94.361 90) (layer "F.SilkS") (tstamp 00000000-0000-0000-0000-00005d8b61f7)
+  (gr_text "Rev ${REVISION}\n" (at 116.84 94.361 90) (layer "F.SilkS") (tstamp 00000000-0000-0000-0000-00005d8b61f7)
     (effects (font (size 1.016 1.016) (thickness 0.1016)))
   )
   (gr_text "27C256" (at 138.1252 66.675 90) (layer "F.SilkS") (tstamp 00000000-0000-0000-0000-00005d8b63a6)
@@ -686,7 +693,7 @@
   (gr_text "OSIWeb.org 2019" (at 116.84 72.39 90) (layer "F.SilkS") (tstamp a2d80b79-a5b1-409a-83c8-a27e06c78642)
     (effects (font (size 1.016 1.016) (thickness 0.1016)))
   )
-  (gr_text "SOL-20 Universal Personality Module" (at 116.84 122.809 90) (layer "F.SilkS") (tstamp d0a8ecfe-1f8e-412e-a25b-82dbdfc53ed8)
+  (gr_text "${TITLE}" (at 116.84 121.285 90) (layer "F.SilkS") (tstamp d0a8ecfe-1f8e-412e-a25b-82dbdfc53ed8)
     (effects (font (size 1.016 1.016) (thickness 0.1016)))
   )
 
